@@ -1,0 +1,1678 @@
+{
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "criterio": "fronteira provisoria: atendimento, categoria exata, demanda, energia de ponta e proxies de infraestrutura; sem custos ou pesos oficiais",
+  "avaliadas": 48,
+  "seed": 12,
+  "fronteira_indices": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7,
+    10,
+    12,
+    14,
+    17,
+    24,
+    25,
+    43
+  ],
+  "resultados": [
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_120x2": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "b3_45",
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 40.50000000000008,
+        "energia_kwh": 4513.525713417182,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 40.5,
+        "carregadores": 3,
+        "saidas": 6,
+        "potencia_instalada_kw": 300.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 3,
+          "dc_30": 1
+        },
+        "entrada": "b3_45",
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 40.49999999999999,
+        "energia_kwh": 4496.411889383015,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 40.5,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 51.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 4,
+          "dc_120x2": 1
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 67.50000000000001,
+        "energia_kwh": 4492.761751862513,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 164.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "b3_45",
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 40.500000000000036,
+        "energia_kwh": 4497.993253997913,
+        "energia_ponta_kwh": 49.54074878449902,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 40.5,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 97.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_30": 1
+        },
+        "entrada": "b3_45",
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 40.49999999999999,
+        "energia_kwh": 4512.235758620285,
+        "energia_ponta_kwh": 101.0501017150736,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 40.5,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 30.00000000000003,
+        "energia_kwh": 4500.513632227095,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 127.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_22x2": 1,
+          "dc_30": 2
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 30.00000000000002,
+        "energia_kwh": 4511.263038298693,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 4,
+        "saidas": 5,
+        "potencia_instalada_kw": 93.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 4
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 30.00000000000002,
+        "energia_kwh": 4495.119001845336,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 30.000000000000057,
+        "energia_kwh": 4497.666809745981,
+        "energia_ponta_kwh": 191.9781173947414,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 59.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_22x2": 2,
+          "dc_30": 1
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 60,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 59.9999999999999,
+        "energia_kwh": 4500.599614207106,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 60
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 85.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "dc_120x2": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 60,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 59.999999999999744,
+        "energia_kwh": 4500.233239515435,
+        "energia_ponta_kwh": 11.760997924625684,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 60
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 3,
+        "saidas": 6,
+        "potencia_instalada_kw": 202.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 2,
+          "dc_30": 1
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 60,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 59.99999999999998,
+        "energia_kwh": 4512.549383078314,
+        "energia_ponta_kwh": 80.04228076148863,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 60
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 4,
+        "saidas": 5,
+        "potencia_instalada_kw": 66.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_120x2": 1,
+          "dc_30": 2
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 100,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 99.9999999999996,
+        "energia_kwh": 4508.882725023773,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 100
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 180.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_120x2": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 100,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 99.99999999999957,
+        "energia_kwh": 4516.547903268241,
+        "energia_ponta_kwh": 9.255326966571936,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 100
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 3,
+        "saidas": 5,
+        "potencia_instalada_kw": 191.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 58.99999999999878,
+        "energia_kwh": 4497.083883740868,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 59.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 129.9999999999994,
+        "energia_kwh": 4504.377282496336,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 179.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_120x2": 2,
+          "dc_30": 2
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 129.9999999999995,
+        "energia_kwh": 4512.501095900123,
+        "energia_ponta_kwh": 9.255326966571936,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 300.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 2,
+          "dc_120x2": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 200,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 156.39999999998614,
+        "energia_kwh": 4510.5640865100195,
+        "energia_ponta_kwh": 9.255326966571936,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 200
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 3,
+        "saidas": 6,
+        "potencia_instalada_kw": 164.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 3,
+          "dc_30": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 200,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 61.1999999999989,
+        "energia_kwh": 4516.66759589187,
+        "energia_ponta_kwh": 80.05146914731935,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 200
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 5,
+        "saidas": 5,
+        "potencia_instalada_kw": 62.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 220,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 126.99999999999737,
+        "energia_kwh": 4522.22155374849,
+        "energia_ponta_kwh": 18.379683045733643,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 220
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 4,
+        "saidas": 5,
+        "potencia_instalada_kw": 127.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 1,
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 220,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 114.19999999995731,
+        "energia_kwh": 4513.528634648164,
+        "energia_ponta_kwh": 18.379683045733643,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 220
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 119.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_30": 2
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 270,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 73.9999999999987,
+        "energia_kwh": 4510.238486775512,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 270
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 74.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_60x2": 2
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 130.9999999999934,
+        "energia_kwh": 4511.167819730435,
+        "energia_ponta_kwh": 11.760997924625684,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 3,
+        "saidas": 5,
+        "potencia_instalada_kw": 131.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_22x2": 1,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 76.05734806629704,
+        "energia_kwh": 4503.177453028128,
+        "energia_ponta_kwh": 78.2976476775548,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 81.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 47.999999999998884,
+        "energia_kwh": 4501.598478486013,
+        "energia_ponta_kwh": 85.96710727114505,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 48.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 41.0,
+        "energia_kwh": 4493.133007471079,
+        "energia_ponta_kwh": 118.23719987869141,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 41.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 1,
+          "dc_30": 3
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 118.05734806629542,
+        "energia_kwh": 4512.463154604023,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 6,
+        "saidas": 6,
+        "potencia_instalada_kw": 119.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 4,
+          "ac_22x2": 1
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 55.199999999996635,
+        "energia_kwh": 4493.152959215614,
+        "energia_ponta_kwh": 162.7946201291551,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 66.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 197.9999999999889,
+        "energia_kwh": 4509.599927246085,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 198.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 3,
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 110.5999999999997,
+        "energia_kwh": 4523.885959892205,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 111.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_120x2": 1,
+          "dc_30": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 230.76055661716083,
+        "energia_kwh": 4512.539192450742,
+        "energia_ponta_kwh": 9.255326966571936,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 240.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 4,
+          "dc_30": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 57.999999999999304,
+        "energia_kwh": 4516.667595891871,
+        "energia_ponta_kwh": 78.76438581398538,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 5,
+        "saidas": 5,
+        "potencia_instalada_kw": 58.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_30": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 900,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 137.0573480662901,
+        "energia_kwh": 4506.605723309328,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 900
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 138.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_120x2": 1,
+          "dc_30": 4
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 900,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 238.03542621016797,
+        "energia_kwh": 4512.53919245075,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 900
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 240.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 5
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 900,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 156.9999999999984,
+        "energia_kwh": 4506.882895111223,
+        "energia_ponta_kwh": 32.50244748488615,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 900
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 6,
+        "saidas": 6,
+        "potencia_instalada_kw": 157.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_22x2": 1,
+          "ac_7": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 1350,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 47.399999999999594,
+        "energia_kwh": 4501.92503460645,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 1350
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 4,
+        "saidas": 5,
+        "potencia_instalada_kw": 51.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 1,
+          "dc_120x2": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 1350,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 144.1999999999967,
+        "energia_kwh": 4514.352603264619,
+        "energia_ponta_kwh": 9.255326966571936,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 1350
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 3,
+        "saidas": 5,
+        "potencia_instalada_kw": 149.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_30": 4
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 1350,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 119.9999999999959,
+        "energia_kwh": 4510.991569299433,
+        "energia_ponta_kwh": 32.50244748488615,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 1350
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 120.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_60x2": 3
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 1800,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 179.99999999999926,
+        "energia_kwh": 4512.801263041132,
+        "energia_ponta_kwh": 11.760997924625684,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 1800
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 3,
+        "saidas": 6,
+        "potencia_instalada_kw": 180.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "dc_30": 6
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 30.000000000000007,
+        "energia_kwh": 4469.403242479298,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 6,
+        "saidas": 6,
+        "potencia_instalada_kw": 180.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "dc_120x2": 1,
+          "dc_30": 2
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 30.00000000000001,
+        "energia_kwh": 4466.403797547096,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 202.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 30.000000000000057,
+        "energia_kwh": 4464.910978643013,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 217.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_30": 3
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 30.000000000000057,
+        "energia_kwh": 4464.910978643013,
+        "energia_ponta_kwh": 183.15349228107817,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 5,
+        "saidas": 6,
+        "potencia_instalada_kw": 217.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 2
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 24.999999999999975,
+        "energia_kwh": 4459.080036611868,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 25.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_11": 3,
+          "ac_7": 3
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 269,
+        "upgrades": 0,
+        "nao_atendidos": 2,
+        "pico_kw": 30.00000000000006,
+        "energia_kwh": 4408.681112125839,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.2619926199262,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 6,
+        "saidas": 6,
+        "potencia_instalada_kw": 54.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_60x2": 2
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 269,
+        "upgrades": 0,
+        "nao_atendidos": 2,
+        "pico_kw": 30.000000000000036,
+        "energia_kwh": 4429.173031125965,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.2619926199262,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 134.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 2,
+          "dc_120x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 269,
+        "upgrades": 0,
+        "nao_atendidos": 2,
+        "pico_kw": 30.00000000000005,
+        "energia_kwh": 4412.396076463083,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.2619926199262,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 156.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_30": 4
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 269,
+        "upgrades": 0,
+        "nao_atendidos": 2,
+        "pico_kw": 30.000000000000036,
+        "energia_kwh": 4429.173031125965,
+        "energia_ponta_kwh": 120.79730315400218,
+        "atendimento_pct": 99.2619926199262,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 6,
+        "saidas": 6,
+        "potencia_instalada_kw": 134.0
+      },
+      "violacoes": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "ac_7": 2,
+      "dc_120x2": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 60,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_30": 4
+    },
+    "entrada": "a4_225",
+    "demanda_contratada_kw": 200,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_120x2": 1,
+      "dc_30": 1
+    },
+    "entrada": "se_750",
+    "demanda_contratada_kw": 330,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "ac_11": 1,
+      "ac_7": 1,
+      "dc_30": 2
+    },
+    "entrada": "se_500",
+    "demanda_contratada_kw": 450,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_30": 3
+    },
+    "entrada": "se_500",
+    "demanda_contratada_kw": 450,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  }
+]

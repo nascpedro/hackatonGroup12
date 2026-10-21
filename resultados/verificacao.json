@@ -1,0 +1,112 @@
+{
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "criterio": "atendimento, categoria exata, infraestrutura aproximada, pico, energia de ponta; sem custos ou pesos oficiais",
+  "avaliadas": 3,
+  "seed": 12,
+  "resultados": [
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_30": 1
+        },
+        "entrada": "b3_45",
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 40.49999999999999,
+        "energia_kwh": 4512.235758620285,
+        "energia_ponta_kwh": 101.0501017150736,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 40.5,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 271,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 30.00000000000003,
+        "energia_kwh": 4500.513632227095,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 127.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Bangkok",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 271,
+        "certos": 270,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 30.000000000000057,
+        "energia_kwh": 4464.910978643013,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.6309963099631,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 4,
+        "saidas": 6,
+        "potencia_instalada_kw": 217.0
+      },
+      "violacoes": []
+    }
+  ]
+}
