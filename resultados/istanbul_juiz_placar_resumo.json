@@ -1,0 +1,21 @@
+{
+  "origem": "valores exibidos na captura do teste de placar enviada pelo usuário; números arredondados pela interface",
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "nota": 8381.19,
+  "metricas": {
+    "contratos": 1293,
+    "certos": 1288,
+    "upgrades": 3,
+    "nao_atendidos": 2,
+    "pico_kw": 51,
+    "energia_kwh": 27538.29,
+    "energia_ponta_kwh": 2625.61,
+    "atendimento_pct": 99.85,
+    "demanda_contratada_kw": 0,
+    "custo_infra": 9250
+  },
+  "custo_infra": 9250,
+  "taxa": 20,
+  "saldo": 940
+}

@@ -1,0 +1,21 @@
+{
+  "origem": "valores exibidos na captura de tela do teste de placar enviada pelo usuário; números arredondados pela interface",
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "nota": 5457.06,
+  "metricas": {
+    "contratos": 1167,
+    "certos": 1161,
+    "upgrades": 6,
+    "nao_atendidos": 0,
+    "pico_kw": 67.5,
+    "energia_kwh": 20501.98,
+    "energia_ponta_kwh": 2511.88,
+    "atendimento_pct": 100,
+    "demanda_contratada_kw": 0,
+    "custo_infra": 10750
+  },
+  "custo_infra": 10750,
+  "taxa": 20,
+  "saldo": 870
+}
