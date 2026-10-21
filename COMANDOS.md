@@ -8,9 +8,38 @@ Na raiz do projeto:
 python3 scripts/check_local.py --strict
 ```
 
-Esse comando roda os testes e compara todas as métricas e séries de Bangkok
-com uma resposta oficial já salva. Não lê `.env` nem chama a API. O mesmo
+Esse comando roda os testes e compara todas as métricas e séries de três casos de
+Bangkok com respostas oficiais já salvas. Não lê `.env` nem chama a API. O mesmo
 comando roda no GitHub Actions, sem secrets.
+
+Os testes locais também cobrem cenários alternativos em Bangkok, Istanbul e
+Hanoi: conservação dos contratos, limite de potência, vagas e energia na ponta.
+Esses cenários verificam consistência interna; só a referência salva de Bangkok
+foi comparada com o juiz. Para acrescentar outra resposta oficial **já salva**:
+
+```bash
+python3 scripts/check_local.py --strict \
+  --caso caminho/submissao.json caminho/resposta_oficial.json
+```
+
+Para iniciar uma busca reproduzível de configurações válidas, sem API:
+
+```bash
+python3 scripts/buscar.py Bangkok --base exemplo_submissao.json \
+  --max-avaliacoes 48 --seed 12 --saida resultados/bangkok.json
+python3 scripts/buscar.py Istanbul --max-avaliacoes 48 --seed 12 \
+  --saida resultados/istanbul.json
+python3 scripts/buscar.py Hanoi --max-avaliacoes 48 --seed 12 \
+  --saida resultados/hanoi.json
+```
+
+O JSON guarda todas as submissões prontas para validação, métricas e violações.
+O comando também grava `*_top5.json`, uma lista de cinco submissões que pode
+ser passada diretamente a `simular.py`.
+`resultados/` é ignorado pelo Git. A ordenação é uma heurística provisória:
+atendimento, categoria exata e infraestrutura aproximada vêm antes de pico e
+energia de ponta. Ela não representa a nota do juiz nem inclui custos/pesos de
+H4 ou desempenho nas semanas ocultas.
 
 Os comandos manuais abaixo também são executados na raiz do repositório.
 
@@ -79,7 +108,7 @@ python3 simular.py exemplo_submissao.json
 python3 simular.py exemplo_submissao.json --series > dados/bangkok_local_series.json
 ```
 
-Os 22 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
+Os 25 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
 físicas e séries de 15 minutos do juiz para a referência salva.
 
 ## Comparar com o juiz em Bangkok
