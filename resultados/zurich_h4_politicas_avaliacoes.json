@@ -1,0 +1,794 @@
+[
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 795,
+   "upgrades": 25,
+   "nao_atendidos": 47,
+   "pico_kw": 67.5,
+   "energia_kwh": 13974.563978943985,
+   "energia_ponta_kwh": 1881.940299471281,
+   "atendimento_pct": 94.57900807381776,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     795,
+     15,
+     11925
+    ],
+    [
+     "upgrade",
+     25,
+     8,
+     200
+    ],
+    [
+     "nao_atendido",
+     47,
+     -200,
+     -9400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     1881.940299471281,
+     -0.5,
+     -940.9701497356405
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -7015.97014973564
+  },
+  "nota": -7015.97014973564,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 786,
+   "upgrades": 29,
+   "nao_atendidos": 52,
+   "pico_kw": 67.49999999999989,
+   "energia_kwh": 13853.111589681977,
+   "energia_ponta_kwh": 1899.4754415311118,
+   "atendimento_pct": 94.00230680507497,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     786,
+     15,
+     11790
+    ],
+    [
+     "upgrade",
+     29,
+     8,
+     232
+    ],
+    [
+     "nao_atendido",
+     52,
+     -200,
+     -10400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     1899.4754415311118,
+     -0.5,
+     -949.7377207655559
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -8127.737720765555
+  },
+  "nota": -8127.737720765555,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 783,
+   "upgrades": 16,
+   "nao_atendidos": 68,
+   "pico_kw": 67.49999999999994,
+   "energia_kwh": 13552.148352471064,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 92.15686274509804,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     783,
+     15,
+     11745
+    ],
+    [
+     "upgrade",
+     16,
+     8,
+     128
+    ],
+    [
+     "nao_atendido",
+     68,
+     -200,
+     -13600
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -10527.0
+  },
+  "nota": -10527.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 776,
+   "upgrades": 22,
+   "nao_atendidos": 69,
+   "pico_kw": 67.49999999999996,
+   "energia_kwh": 13623.550524232678,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 92.04152249134948,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     776,
+     15,
+     11640
+    ],
+    [
+     "upgrade",
+     22,
+     8,
+     176
+    ],
+    [
+     "nao_atendido",
+     69,
+     -200,
+     -13800
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -10784.0
+  },
+  "nota": -10784.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 837,
+   "upgrades": 14,
+   "nao_atendidos": 16,
+   "pico_kw": 67.49999999999994,
+   "energia_kwh": 14367.97791525304,
+   "energia_ponta_kwh": 2102.5119122069045,
+   "atendimento_pct": 98.15455594002307,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     837,
+     15,
+     12555
+    ],
+    [
+     "upgrade",
+     14,
+     8,
+     112
+    ],
+    [
+     "nao_atendido",
+     16,
+     -200,
+     -3200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2102.5119122069045,
+     -0.5,
+     -1051.2559561034523
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -384.25595610345226
+  },
+  "nota": -384.25595610345226,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 845,
+   "upgrades": 7,
+   "nao_atendidos": 15,
+   "pico_kw": 67.49999999999999,
+   "energia_kwh": 14229.283090225714,
+   "energia_ponta_kwh": 2054.3532766306735,
+   "atendimento_pct": 98.26989619377163,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     845,
+     15,
+     12675
+    ],
+    [
+     "upgrade",
+     7,
+     8,
+     56
+    ],
+    [
+     "nao_atendido",
+     15,
+     -200,
+     -3000
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2054.3532766306735,
+     -0.5,
+     -1027.1766383153367
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -96.17663831533673
+  },
+  "nota": -96.17663831533673,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 816,
+   "upgrades": 21,
+   "nao_atendidos": 30,
+   "pico_kw": 67.49999999999996,
+   "energia_kwh": 14156.81026987734,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 96.53979238754326,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     816,
+     15,
+     12240
+    ],
+    [
+     "upgrade",
+     21,
+     8,
+     168
+    ],
+    [
+     "nao_atendido",
+     30,
+     -200,
+     -6000
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -2392.0
+  },
+  "nota": -2392.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 825,
+   "upgrades": 16,
+   "nao_atendidos": 26,
+   "pico_kw": 67.49999999999996,
+   "energia_kwh": 14188.555420261537,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 97.00115340253748,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     825,
+     15,
+     12375
+    ],
+    [
+     "upgrade",
+     16,
+     8,
+     128
+    ],
+    [
+     "nao_atendido",
+     26,
+     -200,
+     -5200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -1497.0
+  },
+  "nota": -1497.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 837,
+   "upgrades": 22,
+   "nao_atendidos": 8,
+   "pico_kw": 67.50000000000006,
+   "energia_kwh": 14480.00396718242,
+   "energia_ponta_kwh": 2219.3121179240006,
+   "atendimento_pct": 99.07727797001154,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     837,
+     15,
+     12555
+    ],
+    [
+     "upgrade",
+     22,
+     8,
+     176
+    ],
+    [
+     "nao_atendido",
+     8,
+     -200,
+     -1600
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2219.3121179240006,
+     -0.5,
+     -1109.6560589620003
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": 1221.3439410379997
+  },
+  "nota": 1221.3439410379997,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 842,
+   "upgrades": 18,
+   "nao_atendidos": 7,
+   "pico_kw": 67.49999999999997,
+   "energia_kwh": 14509.97763687678,
+   "energia_ponta_kwh": 2162.27755934025,
+   "atendimento_pct": 99.19261822376009,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     842,
+     15,
+     12630
+    ],
+    [
+     "upgrade",
+     18,
+     8,
+     144
+    ],
+    [
+     "nao_atendido",
+     7,
+     -200,
+     -1400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2162.27755934025,
+     -0.5,
+     -1081.138779670125
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": 1492.861220329875
+  },
+  "nota": 1492.861220329875,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 807,
+   "upgrades": 38,
+   "nao_atendidos": 22,
+   "pico_kw": 67.5,
+   "energia_kwh": 14380.45260583616,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 97.46251441753172,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     807,
+     15,
+     12105
+    ],
+    [
+     "upgrade",
+     38,
+     8,
+     304
+    ],
+    [
+     "nao_atendido",
+     22,
+     -200,
+     -4400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": -791.0
+  },
+  "nota": -791.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 828,
+   "upgrades": 23,
+   "nao_atendidos": 16,
+   "pico_kw": 67.5,
+   "energia_kwh": 14355.35110400449,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 98.15455594002307,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     828,
+     15,
+     12420
+    ],
+    [
+     "upgrade",
+     23,
+     8,
+     184
+    ],
+    [
+     "nao_atendido",
+     16,
+     -200,
+     -3200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8800,
+     -1,
+     -8800
+    ]
+   ],
+   "nota": 604.0
+  },
+  "nota": 604.0,
+  "custo_infra": {
+   "carregadores": 8800,
+   "entrada": 0,
+   "total": 8800
+  }
+ }
+]

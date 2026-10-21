@@ -1,0 +1,55 @@
+[
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_30": 2,
+      "ac_7": 2
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_22x2": 1,
+      "ac_7": 1
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_22x2": 1
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Istanbul",
+    "carregadores": {
+      "dc_60x2": 1,
+      "ac_11": 2
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  }
+]

@@ -460,16 +460,30 @@ class Motor:
         O significado e o formato de `params` são explicados no anúncio de cada evento; vêm de
         `eventos_ativos` de GET /status. Ex. de uso: `self.agendar(t, PRIO_ABERTURA, 'evento', params)`.
         """
-        # TODO(etapa 7)
-        pass
+        for params in eventos:
+            if len(params) != 5 or params[0] != "corte":
+                raise ValueError(f"evento desconhecido: {params}")
+            _, agencia, inicio, fim, fator = params
+            if agencia != self.cen.agencia.nome:
+                continue
+            if not (inicio < fim and 0 <= fator <= 1):
+                raise ValueError(f"corte inválido: {params}")
+            if fim <= tempo.T0:
+                continue
+            self.agendar(max(inicio, tempo.T0), PRIO_ABERTURA, "evento", "corte", fator, True)
+            self.agendar(fim, PRIO_ABERTURA, "evento", "corte", fator, False)
 
     def on_evento(self, t: float, *params) -> None:
         """Aplica um evento no instante t (ex.: limite da concessionária, carregador fora de operação).
 
         Recalcule as potências; ao voltar um carregador, tente plugar a fila (6.3.3).
         """
-        # TODO(etapa 7)
-        pass
+        tipo, fator, inicio = params
+        if tipo != "corte":
+            raise ValueError(f"evento desconhecido: {params}")
+        limite_normal = validar.limite_kw(self.sub, self.cen)
+        self.limite_kw = limite_normal * fator if inicio else limite_normal
+        self.recalcular_potencias(t)
 
 
 def simular(cenario: Cenario, sub_normalizada: dict, eventos=()) -> Resultado:

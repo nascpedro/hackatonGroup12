@@ -1,0 +1,1670 @@
+{
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "criterio": "fronteira provisoria: atendimento, categoria exata, demanda, energia de ponta e proxies de infraestrutura; sem custos ou pesos oficiais",
+  "avaliadas": 48,
+  "seed": 12,
+  "fronteira_indices": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    37,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "resultados": [
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_60x2": 2
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 867,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 119.9999999999994,
+        "energia_kwh": 14549.41371095619,
+        "energia_ponta_kwh": 1342.125259974841,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 2,
+        "saidas": 4,
+        "potencia_instalada_kw": 120.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_120x2": 2
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 1350,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 867,
+        "upgrades": 0,
+        "nao_atendidos": 0,
+        "pico_kw": 232.49142533844955,
+        "energia_kwh": 14525.37774332997,
+        "energia_ponta_kwh": 1285.7609344101845,
+        "atendimento_pct": 100.0,
+        "demanda_contratada_kw": 1350
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 2,
+        "saidas": 4,
+        "potencia_instalada_kw": 240.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 866,
+        "upgrades": 0,
+        "nao_atendidos": 1,
+        "pico_kw": 119.9999999999989,
+        "energia_kwh": 14456.930286473096,
+        "energia_ponta_kwh": 1402.8662057156853,
+        "atendimento_pct": 99.88465974625144,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 120.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_120x2": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 900,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 864,
+        "upgrades": 2,
+        "nao_atendidos": 1,
+        "pico_kw": 133.9999999999561,
+        "energia_kwh": 14490.001492069041,
+        "energia_ponta_kwh": 1746.5578657973767,
+        "atendimento_pct": 99.88465974625144,
+        "demanda_contratada_kw": 900
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 134.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_120x2": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 865,
+        "upgrades": 0,
+        "nao_atendidos": 2,
+        "pico_kw": 149.99999999997976,
+        "energia_kwh": 14501.241527579057,
+        "energia_ponta_kwh": 1476.920956586335,
+        "atendimento_pct": 99.76931949250289,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 150.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_120x2": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 220,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 861,
+        "upgrades": 0,
+        "nao_atendidos": 6,
+        "pico_kw": 156.99999999998488,
+        "energia_kwh": 14501.434047687306,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 99.30795847750865,
+        "demanda_contratada_kw": 220
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 157.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_22x2": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 270,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 838,
+        "upgrades": 22,
+        "nao_atendidos": 7,
+        "pico_kw": 81.99999999999534,
+        "energia_kwh": 14511.048193457711,
+        "energia_ponta_kwh": 1996.8373466156008,
+        "atendimento_pct": 99.19261822376009,
+        "demanda_contratada_kw": 270
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 2,
+        "saidas": 4,
+        "potencia_instalada_kw": 82.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 4
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 850,
+        "upgrades": 5,
+        "nao_atendidos": 12,
+        "pico_kw": 67.50000000000003,
+        "energia_kwh": 14306.642334079934,
+        "energia_ponta_kwh": 2182.6101925084295,
+        "atendimento_pct": 98.6159169550173,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 120.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_120x2": 1,
+          "dc_30": 2
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 100,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 850,
+        "upgrades": 4,
+        "nao_atendidos": 13,
+        "pico_kw": 99.99999999999957,
+        "energia_kwh": 14342.081224820486,
+        "energia_ponta_kwh": 1512.2365786398334,
+        "atendimento_pct": 98.50057670126874,
+        "demanda_contratada_kw": 100
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 180.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 1350,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 832,
+        "upgrades": 21,
+        "nao_atendidos": 14,
+        "pico_kw": 81.99999999999812,
+        "energia_kwh": 14364.900861544533,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 98.38523644752019,
+        "demanda_contratada_kw": 1350
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 82.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_120x2": 1
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 820,
+        "upgrades": 19,
+        "nao_atendidos": 28,
+        "pico_kw": 67.50000000000003,
+        "energia_kwh": 14099.527614370118,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 96.77047289504037,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 138.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 811,
+        "upgrades": 19,
+        "nao_atendidos": 37,
+        "pico_kw": 89.99999999999935,
+        "energia_kwh": 14127.412682491838,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 95.73241061130335,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 90.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 805,
+        "upgrades": 24,
+        "nao_atendidos": 38,
+        "pico_kw": 67.00000000000003,
+        "energia_kwh": 14035.492238759425,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 95.61707035755478,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 67.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_60x2": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 1800,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 802,
+        "upgrades": 25,
+        "nao_atendidos": 40,
+        "pico_kw": 59.999999999999964,
+        "energia_kwh": 13967.815453817497,
+        "energia_ponta_kwh": 2072.284657873063,
+        "atendimento_pct": 95.38638985005767,
+        "demanda_contratada_kw": 1800
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 1,
+        "saidas": 2,
+        "potencia_instalada_kw": 60.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_30": 3
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 799,
+        "upgrades": 25,
+        "nao_atendidos": 43,
+        "pico_kw": 67.49999999999997,
+        "energia_kwh": 13966.78322680314,
+        "energia_ponta_kwh": 1917.7029913181652,
+        "atendimento_pct": 95.040369088812,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 101.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 2
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 798,
+        "upgrades": 20,
+        "nao_atendidos": 49,
+        "pico_kw": 66.99999999999999,
+        "energia_kwh": 13889.527594098185,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 94.34832756632065,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 67.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_120x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 220,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 793,
+        "upgrades": 19,
+        "nao_atendidos": 55,
+        "pico_kw": 119.99999999999164,
+        "energia_kwh": 13705.403969921808,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 93.6562860438293,
+        "demanda_contratada_kw": 220
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 1,
+        "saidas": 2,
+        "potencia_instalada_kw": 120.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_30": 2
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 788,
+        "upgrades": 23,
+        "nao_atendidos": 56,
+        "pico_kw": 70.99999999999888,
+        "energia_kwh": 13773.954581333332,
+        "energia_ponta_kwh": 1913.3565417283767,
+        "atendimento_pct": 93.54094579008074,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 71.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2,
+          "dc_30": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 270,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 607,
+        "upgrades": 132,
+        "nao_atendidos": 128,
+        "pico_kw": 51.99999999999999,
+        "energia_kwh": 12240.540810725135,
+        "energia_ponta_kwh": 2243.785151744091,
+        "atendimento_pct": 85.23644752018454,
+        "demanda_contratada_kw": 270
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 52.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 2,
+          "dc_30": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 601,
+        "upgrades": 126,
+        "nao_atendidos": 140,
+        "pico_kw": 54.999999999999794,
+        "energia_kwh": 12264.730790868725,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 83.85236447520184,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 55.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 60,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 656,
+        "upgrades": 62,
+        "nao_atendidos": 149,
+        "pico_kw": 58.999999999998444,
+        "energia_kwh": 11974.140342739809,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 82.81430219146482,
+        "demanda_contratada_kw": 60
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 59.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_22x2": 1,
+          "dc_30": 1
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 485,
+        "upgrades": 165,
+        "nao_atendidos": 217,
+        "pico_kw": 52.000000000000036,
+        "energia_kwh": 10838.23005751649,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 74.97116493656286,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 52.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 481,
+        "upgrades": 159,
+        "nao_atendidos": 227,
+        "pico_kw": 48.000000000000014,
+        "energia_kwh": 10505.486427536613,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 73.81776239907728,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 48.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_22x2": 2
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 389,
+        "upgrades": 186,
+        "nao_atendidos": 292,
+        "pico_kw": 44.00000000000009,
+        "energia_kwh": 9430.727881861389,
+        "energia_ponta_kwh": 1756.9541185124103,
+        "atendimento_pct": 66.32064590542099,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 2,
+        "saidas": 4,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 2,
+          "dc_30": 1
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 670,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 508,
+        "upgrades": 50,
+        "nao_atendidos": 309,
+        "pico_kw": 43.99999999999995,
+        "energia_kwh": 9576.185049195972,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 64.3598615916955,
+        "demanda_contratada_kw": 670
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_22x2": 1,
+          "ac_7": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 379,
+        "upgrades": 164,
+        "nao_atendidos": 324,
+        "pico_kw": 30.00000000000004,
+        "energia_kwh": 8614.468175092274,
+        "energia_ponta_kwh": 1590.2497962584025,
+        "atendimento_pct": 62.62975778546713,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 40.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1,
+          "dc_30": 2
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 399,
+        "upgrades": 140,
+        "nao_atendidos": 328,
+        "pico_kw": 30.00000000000003,
+        "energia_kwh": 8272.948220370976,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 62.168396770472896,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 78.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_60x2": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 435,
+        "upgrades": 96,
+        "nao_atendidos": 336,
+        "pico_kw": 30.000000000000057,
+        "energia_kwh": 8686.36159036139,
+        "energia_ponta_kwh": 1659.5153604225663,
+        "atendimento_pct": 61.24567474048443,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 71.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 388,
+        "upgrades": 142,
+        "nao_atendidos": 337,
+        "pico_kw": 30.00000000000004,
+        "energia_kwh": 7965.930335771978,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 61.13033448673587,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 59.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_22x2": 1
+        },
+        "entrada": "se_500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 418,
+        "upgrades": 111,
+        "nao_atendidos": 338,
+        "pico_kw": 30.00000000000006,
+        "energia_kwh": 8675.397718968781,
+        "energia_ponta_kwh": 1629.372893900036,
+        "atendimento_pct": 61.01499423298731,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 450.0,
+        "carregadores": 3,
+        "saidas": 4,
+        "potencia_instalada_kw": 44.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 3
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 365,
+        "upgrades": 157,
+        "nao_atendidos": 345,
+        "pico_kw": 30.000000000000025,
+        "energia_kwh": 8250.982329029493,
+        "energia_ponta_kwh": 1521.744173629036,
+        "atendimento_pct": 60.207612456747405,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 32.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 4
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 360,
+        "upgrades": 161,
+        "nao_atendidos": 346,
+        "pico_kw": 28.00000000000002,
+        "energia_kwh": 8155.212130418789,
+        "energia_ponta_kwh": 1520.8533282534208,
+        "atendimento_pct": 60.09227220299885,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 28.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 100,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 341,
+        "upgrades": 172,
+        "nao_atendidos": 354,
+        "pico_kw": 30.000000000000014,
+        "energia_kwh": 7765.356290727026,
+        "energia_ponta_kwh": 1343.7824756807954,
+        "atendimento_pct": 59.16955017301038,
+        "demanda_contratada_kw": 100
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 1,
+        "saidas": 1,
+        "potencia_instalada_kw": 30.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 3,
+          "dc_30": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 468,
+        "upgrades": 41,
+        "nao_atendidos": 358,
+        "pico_kw": 30.00000000000003,
+        "energia_kwh": 8868.92355351676,
+        "energia_ponta_kwh": 1695.2297471899699,
+        "atendimento_pct": 58.70818915801615,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 63.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 270,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 398,
+        "upgrades": 110,
+        "nao_atendidos": 359,
+        "pico_kw": 41.00000000000002,
+        "energia_kwh": 8223.342842542725,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 58.59284890426759,
+        "demanda_contratada_kw": 270
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 41.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 3,
+          "ac_7": 1
+        },
+        "entrada": "se_750",
+        "demanda_contratada_kw": 330,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 465,
+        "upgrades": 41,
+        "nao_atendidos": 361,
+        "pico_kw": 36.39999999999958,
+        "energia_kwh": 8550.714078886962,
+        "energia_ponta_kwh": 1559.7364524896393,
+        "atendimento_pct": 58.36216839677047,
+        "demanda_contratada_kw": 330
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 675.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 40.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 3
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 462,
+        "upgrades": 44,
+        "nao_atendidos": 361,
+        "pico_kw": 30.000000000000036,
+        "energia_kwh": 8418.52558525837,
+        "energia_ponta_kwh": 1589.8027100612608,
+        "atendimento_pct": 58.36216839677047,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 90.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2,
+          "ac_7": 2
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 345,
+        "upgrades": 114,
+        "nao_atendidos": 408,
+        "pico_kw": 30.000000000000036,
+        "energia_kwh": 7360.411039576568,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 52.94117647058823,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 36.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 3
+        },
+        "entrada": "se_1500",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 386,
+        "upgrades": 50,
+        "nao_atendidos": 431,
+        "pico_kw": 30.000000000000025,
+        "energia_kwh": 7699.069324918235,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 50.2883506343714,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1350.0,
+        "carregadores": 4,
+        "saidas": 4,
+        "potencia_instalada_kw": 97.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1,
+          "dc_30": 1
+        },
+        "entrada": "a4_225",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 313,
+        "upgrades": 121,
+        "nao_atendidos": 433,
+        "pico_kw": 30.000000000000032,
+        "energia_kwh": 7146.698165230917,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 50.05767012687428,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 202.5,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 37.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "dc_30": 2
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 30,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 351,
+        "upgrades": 54,
+        "nao_atendidos": 462,
+        "pico_kw": 30.000000000000032,
+        "energia_kwh": 7193.720065443714,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 46.71280276816609,
+        "demanda_contratada_kw": 30
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 60.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 3
+        },
+        "entrada": "se_1000",
+        "demanda_contratada_kw": 450,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 316,
+        "upgrades": 66,
+        "nao_atendidos": 485,
+        "pico_kw": 29.39999999999963,
+        "energia_kwh": 6822.693296185225,
+        "energia_ponta_kwh": 1236.3412561194984,
+        "atendimento_pct": 44.05997693194925,
+        "demanda_contratada_kw": 450
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 900.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 33.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_22x2": 1
+        },
+        "entrada": "a4_150",
+        "demanda_contratada_kw": 130,
+        "politica": {
+          "prioridade": "chegada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 281,
+        "upgrades": 99,
+        "nao_atendidos": 487,
+        "pico_kw": 32.9999999999994,
+        "energia_kwh": 5993.823297766507,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 43.82929642445213,
+        "demanda_contratada_kw": 130
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 135.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 33.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 3
+        },
+        "entrada": "a4_300",
+        "demanda_contratada_kw": 270,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 232,
+        "upgrades": 146,
+        "nao_atendidos": 489,
+        "pico_kw": 21.000000000000025,
+        "energia_kwh": 5422.822952726539,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 43.59861591695502,
+        "demanda_contratada_kw": 270
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 270.0,
+        "carregadores": 3,
+        "saidas": 3,
+        "potencia_instalada_kw": 21.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_22x2": 1,
+          "ac_7": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 1800,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": false,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 313,
+        "upgrades": 44,
+        "nao_atendidos": 510,
+        "pico_kw": 28.99999999999996,
+        "energia_kwh": 6407.694377138027,
+        "energia_ponta_kwh": 1214.4723255819188,
+        "atendimento_pct": 41.1764705882353,
+        "demanda_contratada_kw": 1800
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 2,
+        "saidas": 3,
+        "potencia_instalada_kw": 29.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 2
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 900,
+        "politica": {
+          "prioridade": "proxima_retirada",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 201,
+        "upgrades": 121,
+        "nao_atendidos": 545,
+        "pico_kw": 22.000000000000032,
+        "energia_kwh": 4193.739613795452,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 37.13956170703575,
+        "demanda_contratada_kw": 900
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 22.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_11": 1,
+          "ac_7": 1
+        },
+        "entrada": "b3_75",
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "prioridade"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 121,
+        "upgrades": 57,
+        "nao_atendidos": 689,
+        "pico_kw": 18.000000000000014,
+        "energia_kwh": 3828.8272644554427,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 20.530565167243367,
+        "demanda_contratada_kw": 0.0
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 67.5,
+        "carregadores": 2,
+        "saidas": 2,
+        "potencia_instalada_kw": 18.0
+      },
+      "violacoes": []
+    },
+    {
+      "submissao": {
+        "agencia": "Zurich",
+        "carregadores": {
+          "ac_7": 1
+        },
+        "entrada": "se_2000",
+        "demanda_contratada_kw": 1800,
+        "politica": {
+          "prioridade": "menor_soc",
+          "evitar_ponta": true,
+          "divisao": "igual"
+        }
+      },
+      "metricas": {
+        "contratos": 867,
+        "certos": 74,
+        "upgrades": 26,
+        "nao_atendidos": 767,
+        "pico_kw": 7.000000000000007,
+        "energia_kwh": 1882.6541751623445,
+        "energia_ponta_kwh": 0,
+        "atendimento_pct": 11.534025374855824,
+        "demanda_contratada_kw": 1800
+      },
+      "infraestrutura": {
+        "entrada_kw_util": 1800.0,
+        "carregadores": 1,
+        "saidas": 1,
+        "potencia_instalada_kw": 7.0
+      },
+      "violacoes": []
+    }
+  ],
+  "eventos": []
+}

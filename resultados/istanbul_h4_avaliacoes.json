@@ -1,0 +1,464 @@
+[
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1075,
+   "upgrades": 50,
+   "nao_atendidos": 168,
+   "pico_kw": 40.50000000000005,
+   "energia_kwh": 24478.091281101984,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 87.00696055684455,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 10800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1075,
+     15,
+     16125
+    ],
+    [
+     "upgrade",
+     50,
+     8,
+     400
+    ],
+    [
+     "nao_atendido",
+     168,
+     -200,
+     -33600
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     10800,
+     -1,
+     -10800
+    ]
+   ],
+   "nota": -27875.0
+  },
+  "nota": -27875.0,
+  "custo_infra": {
+   "carregadores": 10800,
+   "entrada": 0,
+   "total": 10800
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1288,
+   "upgrades": 1,
+   "nao_atendidos": 4,
+   "pico_kw": 67.49999999999986,
+   "energia_kwh": 27536.22953816225,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6906419180201,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 12800
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1288,
+     15,
+     19320
+    ],
+    [
+     "upgrade",
+     1,
+     8,
+     8
+    ],
+    [
+     "nao_atendido",
+     4,
+     -200,
+     -800
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     12800,
+     -1,
+     -12800
+    ]
+   ],
+   "nota": 5728.0
+  },
+  "nota": 5728.0,
+  "custo_infra": {
+   "carregadores": 7800,
+   "entrada": 5000,
+   "total": 12800
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1275,
+   "upgrades": 3,
+   "nao_atendidos": 15,
+   "pico_kw": 60.00000000000004,
+   "energia_kwh": 27372.65240683466,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 98.83990719257541,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 12000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1275,
+     15,
+     19125
+    ],
+    [
+     "upgrade",
+     3,
+     8,
+     24
+    ],
+    [
+     "nao_atendido",
+     15,
+     -200,
+     -3000
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     12000,
+     -1,
+     -12000
+    ]
+   ],
+   "nota": 4149.0
+  },
+  "nota": 4149.0,
+  "custo_infra": {
+   "carregadores": 7000,
+   "entrada": 5000,
+   "total": 12000
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1291,
+   "upgrades": 0,
+   "nao_atendidos": 2,
+   "pico_kw": 67.49999999999999,
+   "energia_kwh": 27580.448270354424,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.84532095901005,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 15500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1291,
+     15,
+     19365
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     15500,
+     -1,
+     -15500
+    ]
+   ],
+   "nota": 3465.0
+  },
+  "nota": 3465.0,
+  "custo_infra": {
+   "carregadores": 10500,
+   "entrada": 5000,
+   "total": 15500
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 752,
+   "upgrades": 73,
+   "nao_atendidos": 468,
+   "pico_kw": 40.37066209715483,
+   "energia_kwh": 18182.745471924194,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 63.80510440835267,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     752,
+     15,
+     11280
+    ],
+    [
+     "upgrade",
+     73,
+     8,
+     584
+    ],
+    [
+     "nao_atendido",
+     468,
+     -200,
+     -93600
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     8000,
+     -1,
+     -8000
+    ]
+   ],
+   "nota": -89736.0
+  },
+  "nota": -89736.0,
+  "custo_infra": {
+   "carregadores": 3000,
+   "entrada": 5000,
+   "total": 8000
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1288,
+   "upgrades": 0,
+   "nao_atendidos": 5,
+   "pico_kw": 67.49999999999994,
+   "energia_kwh": 27560.070196832083,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.61330239752513,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 19600
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1288,
+     15,
+     19320
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     5,
+     -200,
+     -1000
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     19600,
+     -1,
+     -19600
+    ]
+   ],
+   "nota": -1280.0
+  },
+  "nota": -1280.0,
+  "custo_infra": {
+   "carregadores": 14600,
+   "entrada": 5000,
+   "total": 19600
+  }
+ },
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 676,
+   "upgrades": 75,
+   "nao_atendidos": 542,
+   "pico_kw": 27.999999999999968,
+   "energia_kwh": 16633.845791184835,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 58.08197989172467,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 6000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     676,
+     15,
+     10140
+    ],
+    [
+     "upgrade",
+     75,
+     8,
+     600
+    ],
+    [
+     "nao_atendido",
+     542,
+     -200,
+     -108400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     6000,
+     -1,
+     -6000
+    ]
+   ],
+   "nota": -103660.0
+  },
+  "nota": -103660.0,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 5000,
+   "total": 6000
+  }
+ }
+]

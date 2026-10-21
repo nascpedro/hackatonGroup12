@@ -1,0 +1,106 @@
+[
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "ac_22x2": 1,
+      "ac_7": 2,
+      "dc_30": 1
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "ac_22x2": 1,
+      "ac_7": 2,
+      "dc_30": 1
+    },
+    "entrada": "b3_45",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "ac_22x2": 3
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "dc_30": 2,
+      "ac_7": 2
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "dc_30": 3
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "ac_22x2": 2,
+      "dc_30": 1,
+      "ac_7": 1
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Hanoi",
+    "carregadores": {
+      "dc_30": 2,
+      "ac_22x2": 1
+    },
+    "entrada": "b3_75",
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  }
+]

@@ -1,0 +1,794 @@
+[
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 267,
+   "upgrades": 2,
+   "nao_atendidos": 2,
+   "pico_kw": 21.000000000000018,
+   "energia_kwh": 4458.731790752985,
+   "energia_ponta_kwh": 360.79492905124545,
+   "atendimento_pct": 99.2619926199262,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     2,
+     8,
+     16
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     360.79492905124545,
+     -0.5,
+     -180.39746452562272
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2690.6025354743774
+  },
+  "nota": 2690.6025354743774,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 267,
+   "upgrades": 2,
+   "nao_atendidos": 2,
+   "pico_kw": 21.000000000000018,
+   "energia_kwh": 4458.731790752985,
+   "energia_ponta_kwh": 360.79492905124545,
+   "atendimento_pct": 99.2619926199262,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     2,
+     8,
+     16
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     360.79492905124545,
+     -0.5,
+     -180.39746452562272
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2690.6025354743774
+  },
+  "nota": 2690.6025354743774,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 267,
+   "upgrades": 2,
+   "nao_atendidos": 2,
+   "pico_kw": 21.000000000000018,
+   "energia_kwh": 4458.731790752985,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.2619926199262,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     2,
+     8,
+     16
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2871.0
+  },
+  "nota": 2871.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 267,
+   "upgrades": 2,
+   "nao_atendidos": 2,
+   "pico_kw": 21.000000000000018,
+   "energia_kwh": 4458.731790752985,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.2619926199262,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     2,
+     8,
+     16
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2871.0
+  },
+  "nota": 2871.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.00000000000001,
+   "energia_kwh": 4482.6245375588305,
+   "energia_ponta_kwh": 447.3668916462794,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     447.3668916462794,
+     -0.5,
+     -223.6834458231397
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2876.3165541768603
+  },
+  "nota": 2876.3165541768603,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.00000000000001,
+   "energia_kwh": 4482.6245375588305,
+   "energia_ponta_kwh": 447.3668916462794,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     447.3668916462794,
+     -0.5,
+     -223.6834458231397
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2876.3165541768603
+  },
+  "nota": 2876.3165541768603,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.00000000000001,
+   "energia_kwh": 4482.6245375588305,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 3100.0
+  },
+  "nota": 3100.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.00000000000001,
+   "energia_kwh": 4482.6245375588305,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 3100.0
+  },
+  "nota": 3100.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 4472.706867333627,
+   "energia_ponta_kwh": 488.15814773805124,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     488.15814773805124,
+     -0.5,
+     -244.07907386902562
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2855.9209261309743
+  },
+  "nota": 2855.9209261309743,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 4472.706867333627,
+   "energia_ponta_kwh": 488.15814773805124,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     488.15814773805124,
+     -0.5,
+     -244.07907386902562
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2855.9209261309743
+  },
+  "nota": 2855.9209261309743,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 4472.706867333627,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 3100.0
+  },
+  "nota": 3100.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 4472.706867333627,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 3100.0
+  },
+  "nota": 3100.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ }
+]

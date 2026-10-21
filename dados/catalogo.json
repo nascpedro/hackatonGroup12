@@ -459,42 +459,48 @@
    "modelo": "AC-7",
    "tipo": "AC",
    "potencia_kw": 7.0,
-   "saidas": 1
+   "saidas": 1,
+   "custo": 250
   },
   {
    "id": "ac_11",
    "modelo": "AC-11",
    "tipo": "AC",
    "potencia_kw": 11.0,
-   "saidas": 1
+   "saidas": 1,
+   "custo": 1100
   },
   {
    "id": "ac_22x2",
    "modelo": "AC-22 (2 saídas)",
    "tipo": "AC",
    "potencia_kw": 22.0,
-   "saidas": 2
+   "saidas": 2,
+   "custo": 1500
   },
   {
    "id": "dc_30",
    "modelo": "DC-30",
    "tipo": "DC",
    "potencia_kw": 30.0,
-   "saidas": 1
+   "saidas": 1,
+   "custo": 3500
   },
   {
    "id": "dc_60x2",
    "modelo": "DC-60 (2 saídas)",
    "tipo": "DC",
    "potencia_kw": 60.0,
-   "saidas": 2
+   "saidas": 2,
+   "custo": 7300
   },
   {
    "id": "dc_120x2",
    "modelo": "DC-120 (2 saídas)",
    "tipo": "DC",
    "potencia_kw": 120.0,
-   "saidas": 2
+   "saidas": 2,
+   "custo": 15800
   }
  ],
  "entradas": [
@@ -502,61 +508,113 @@
    "id": "b3_45",
    "descricao": "B3 45 kVA",
    "kva": 45.0,
-   "kw_util": 40.5
+   "kw_util": 40.5,
+   "custo": null
   },
   {
    "id": "b3_75",
    "descricao": "B3 75 kVA",
    "kva": 75.0,
-   "kw_util": 67.5
+   "kw_util": 67.5,
+   "custo": 5000
   },
   {
    "id": "a4_150",
    "descricao": "A4 150 kVA",
    "kva": 150.0,
-   "kw_util": 135.0
+   "kw_util": 135.0,
+   "custo": 6500
   },
   {
    "id": "a4_225",
    "descricao": "A4 225 kVA",
    "kva": 225.0,
-   "kw_util": 202.5
+   "kw_util": 202.5,
+   "custo": 8200
   },
   {
    "id": "a4_300",
    "descricao": "A4 300 kVA",
    "kva": 300.0,
-   "kw_util": 270.0
+   "kw_util": 270.0,
+   "custo": 10000
   },
   {
    "id": "se_500",
    "descricao": "SE 500 kVA",
    "kva": 500.0,
-   "kw_util": 450.0
+   "kw_util": 450.0,
+   "custo": 18800
   },
   {
    "id": "se_750",
    "descricao": "SE 750 kVA",
    "kva": 750.0,
-   "kw_util": 675.0
+   "kw_util": 675.0,
+   "custo": 24400
   },
   {
    "id": "se_1000",
    "descricao": "SE 1000 kVA",
    "kva": 1000.0,
-   "kw_util": 900.0
+   "kw_util": 900.0,
+   "custo": 30000
   },
   {
    "id": "se_1500",
    "descricao": "SE 1500 kVA",
    "kva": 1500.0,
-   "kw_util": 1350.0
+   "kw_util": 1350.0,
+   "custo": 41200
   },
   {
    "id": "se_2000",
    "descricao": "SE 2000 kVA",
    "kva": 2000.0,
-   "kw_util": 1800.0
+   "kw_util": 1800.0,
+   "custo": 52500
   }
- ]
+ ],
+ "pesos": {
+  "Bangkok": {
+   "certo": 15,
+   "upgrade": 8,
+   "nao_atendido": -200,
+   "infraestrutura": -1,
+   "energia_ponta_kwh": -0.5,
+   "demanda_contratada": -2
+  },
+  "Istanbul": {
+   "certo": 15,
+   "upgrade": 8,
+   "nao_atendido": -200,
+   "infraestrutura": -1,
+   "energia_ponta_kwh": -0.5,
+   "demanda_contratada": -2
+  },
+  "Hanoi": {
+   "certo": 15,
+   "upgrade": 8,
+   "nao_atendido": -200,
+   "infraestrutura": -1,
+   "energia_ponta_kwh": -0.5,
+   "demanda_contratada": -2
+  },
+  "Marrakech": {
+   "certo": 15,
+   "upgrade": 8,
+   "nao_atendido": -200,
+   "infraestrutura": -1,
+   "energia_ponta_kwh": -0.5,
+   "demanda_contratada": -2
+  },
+  "Zurich": {
+   "certo": 15,
+   "upgrade": 8,
+   "nao_atendido": -200,
+   "infraestrutura": -1,
+   "energia_ponta_kwh": -0.5,
+   "demanda_contratada": -2
+  }
+ }
 }

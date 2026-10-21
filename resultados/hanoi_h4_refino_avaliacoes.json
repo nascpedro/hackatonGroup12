@@ -1,0 +1,266 @@
+[
+ {
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1167,
+   "certos": 1160,
+   "upgrades": 6,
+   "nao_atendidos": 1,
+   "pico_kw": 67.49999999999989,
+   "energia_kwh": 20499.736098934416,
+   "energia_ponta_kwh": 2536.4530219339545,
+   "atendimento_pct": 99.91431019708655,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 10750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1160,
+     15,
+     17400
+    ],
+    [
+     "upgrade",
+     6,
+     8,
+     48
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2536.4530219339545,
+     -0.5,
+     -1268.2265109669772
+    ],
+    [
+     "infraestrutura",
+     10750,
+     -1,
+     -10750
+    ]
+   ],
+   "nota": 5229.773489033023
+  },
+  "nota": 5229.773489033023,
+  "custo_infra": {
+   "carregadores": 5750,
+   "entrada": 5000,
+   "total": 10750
+  }
+ },
+ {
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1167,
+   "certos": 667,
+   "upgrades": 265,
+   "nao_atendidos": 235,
+   "pico_kw": 57.99999999999697,
+   "energia_kwh": 16712.539019267668,
+   "energia_ponta_kwh": 2473.2109984695935,
+   "atendimento_pct": 79.86289631533847,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 8500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     667,
+     15,
+     10005
+    ],
+    [
+     "upgrade",
+     265,
+     8,
+     2120
+    ],
+    [
+     "nao_atendido",
+     235,
+     -200,
+     -47000
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2473.2109984695935,
+     -0.5,
+     -1236.6054992347968
+    ],
+    [
+     "infraestrutura",
+     8500,
+     -1,
+     -8500
+    ]
+   ],
+   "nota": -44611.6054992348
+  },
+  "nota": -44611.6054992348,
+  "custo_infra": {
+   "carregadores": 3500,
+   "entrada": 5000,
+   "total": 8500
+  }
+ },
+ {
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1167,
+   "certos": 696,
+   "upgrades": 262,
+   "nao_atendidos": 209,
+   "pico_kw": 61.99999999999874,
+   "energia_kwh": 17384.4159995462,
+   "energia_ponta_kwh": 2551.557373626597,
+   "atendimento_pct": 82.09083119108826,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 9500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     696,
+     15,
+     10440
+    ],
+    [
+     "upgrade",
+     262,
+     8,
+     2096
+    ],
+    [
+     "nao_atendido",
+     209,
+     -200,
+     -41800
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2551.557373626597,
+     -0.5,
+     -1275.7786868132985
+    ],
+    [
+     "infraestrutura",
+     9500,
+     -1,
+     -9500
+    ]
+   ],
+   "nota": -40039.7786868133
+  },
+  "nota": -40039.7786868133,
+  "custo_infra": {
+   "carregadores": 4500,
+   "entrada": 5000,
+   "total": 9500
+  }
+ },
+ {
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1167,
+   "certos": 1068,
+   "upgrades": 62,
+   "nao_atendidos": 37,
+   "pico_kw": 57.99999999999976,
+   "energia_kwh": 19902.64318140771,
+   "energia_ponta_kwh": 2724.887685170103,
+   "atendimento_pct": 96.82947729220223,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 9500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1068,
+     15,
+     16020
+    ],
+    [
+     "upgrade",
+     62,
+     8,
+     496
+    ],
+    [
+     "nao_atendido",
+     37,
+     -200,
+     -7400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2724.887685170103,
+     -0.5,
+     -1362.4438425850515
+    ],
+    [
+     "infraestrutura",
+     9500,
+     -1,
+     -9500
+    ]
+   ],
+   "nota": -1746.4438425850515
+  },
+  "nota": -1746.4438425850515,
+  "custo_infra": {
+   "carregadores": 4500,
+   "entrada": 5000,
+   "total": 9500
+  }
+ }
+]

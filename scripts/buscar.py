@@ -86,12 +86,12 @@ def gerar_candidatos(cenario, quantidade, seed=12, base=None):
         tentativas += 1
 
 
-def avaliar(cenario, sub):
+def avaliar(cenario, sub, eventos=()):
     erros = validar.validar(sub, cenario)
     if erros:
         raise ValueError(f"submissão inválida: {erros}")
     normalizada = validar.normalizar(sub, cenario)
-    resultado = motor.simular(cenario, normalizada)
+    resultado = motor.simular(cenario, normalizada, eventos)
     ini, fim = tempo.JANELA_PUBLICA
     metricas = medicao.metricas(resultado.retiradas, resultado.nao_atendidos,
                                 resultado.bins, ini, fim)
@@ -137,8 +137,8 @@ def fronteira_indices(resultados):
                                         for j in validos if j != i)]
 
 
-def buscar(cenario, quantidade, seed=12, base=None):
-    resultados = [avaliar(cenario, sub) for sub in gerar_candidatos(cenario, quantidade, seed, base)]
+def buscar(cenario, quantidade, seed=12, base=None, eventos=()):
+    resultados = [avaliar(cenario, sub, eventos) for sub in gerar_candidatos(cenario, quantidade, seed, base)]
     resultados.sort(key=chave_ranking)
     return {"agencia": cenario.agencia.nome, "periodo": "publico",
             "criterio": "fronteira provisoria: atendimento, categoria exata, demanda, energia de ponta e proxies de infraestrutura; sem custos ou pesos oficiais",
@@ -152,6 +152,7 @@ def main(argv=None):
     ap.add_argument("--max-avaliacoes", type=int, default=24)
     ap.add_argument("--seed", type=int, default=12)
     ap.add_argument("--base", type=Path, help="submissão válida para incluir na busca")
+    ap.add_argument("--eventos", type=Path, help="eventos_ativos salvos de GET /status")
     ap.add_argument("--dados", type=Path, default=RAIZ / "dados")
     ap.add_argument("--saida", type=Path, help="salva todas as avaliações em JSON")
     a = ap.parse_args(argv)
@@ -159,7 +160,13 @@ def main(argv=None):
         ap.error("--max-avaliacoes deve ser positivo")
     cenario = dados.carregar(a.dados, a.agencia)
     base = json.loads(a.base.read_text(encoding="utf-8-sig")) if a.base else None
-    relatorio = buscar(cenario, a.max_avaliacoes, a.seed, base)
+    eventos = json.loads(a.eventos.read_text(encoding="utf-8-sig")) if a.eventos else []
+    if isinstance(eventos, dict):
+        eventos = eventos.get("eventos_ativos", [])
+    eventos = [e["params"] if isinstance(e, dict) else e for e in eventos]
+    eventos = [e for e in eventos if len(e) > 1 and e[1] == a.agencia]
+    relatorio = buscar(cenario, a.max_avaliacoes, a.seed, base, eventos)
+    relatorio["eventos"] = eventos
     if a.saida:
         a.saida.parent.mkdir(parents=True, exist_ok=True)
         a.saida.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

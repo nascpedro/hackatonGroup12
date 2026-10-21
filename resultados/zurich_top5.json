@@ -1,0 +1,70 @@
+[
+  {
+    "agencia": "Zurich",
+    "carregadores": {
+      "dc_60x2": 2
+    },
+    "entrada": "se_750",
+    "demanda_contratada_kw": 330,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Zurich",
+    "carregadores": {
+      "dc_120x2": 2
+    },
+    "entrada": "se_1500",
+    "demanda_contratada_kw": 1350,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Zurich",
+    "carregadores": {
+      "dc_30": 2,
+      "dc_60x2": 1
+    },
+    "entrada": "se_750",
+    "demanda_contratada_kw": 670,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Zurich",
+    "carregadores": {
+      "ac_7": 2,
+      "dc_120x2": 1
+    },
+    "entrada": "se_2000",
+    "demanda_contratada_kw": 900,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Zurich",
+    "carregadores": {
+      "dc_120x2": 1,
+      "dc_30": 1
+    },
+    "entrada": "se_1000",
+    "demanda_contratada_kw": 450,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "prioridade"
+    }
+  }
+]

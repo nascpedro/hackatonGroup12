@@ -1,0 +1,200 @@
+[
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 169,
+   "upgrades": 29,
+   "nao_atendidos": 73,
+   "pico_kw": 14.000000000000014,
+   "energia_kwh": 3321.021113333317,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 73.06273062730628,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     169,
+     15,
+     2535
+    ],
+    [
+     "upgrade",
+     29,
+     8,
+     232
+    ],
+    [
+     "nao_atendido",
+     73,
+     -200,
+     -14600
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -12333.0
+  },
+  "nota": -12333.0,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 267,
+   "upgrades": 2,
+   "nao_atendidos": 2,
+   "pico_kw": 21.000000000000018,
+   "energia_kwh": 4458.731790752985,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.2619926199262,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     2,
+     8,
+     16
+    ],
+    [
+     "nao_atendido",
+     2,
+     -200,
+     -400
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 2871.0
+  },
+  "nota": 2871.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Bangkok",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 271,
+   "certos": 270,
+   "upgrades": 0,
+   "nao_atendidos": 1,
+   "pico_kw": 34.9999999999999,
+   "energia_kwh": 4457.134306061467,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 99.6309963099631,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     1,
+     -200,
+     -200
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 2600.0
+  },
+  "nota": 2600.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ }
+]

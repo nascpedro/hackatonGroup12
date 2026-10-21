@@ -1,0 +1,724 @@
+{
+  "criterio": "nota H4 calculada no simulador local sobre a janela publica",
+  "catalogo_sha256": "cd0c6411869a432d49e11ff1d2617e3e9c95e108b9e4f4004a696c77da07b192",
+  "eventos": "dados/eventos_h4.json",
+  "agencias": {
+    "Bangkok": {
+      "avaliacoes": 81,
+      "distintas": 79,
+      "melhor": {
+        "submissao": {
+          "agencia": "Bangkok",
+          "carregadores": {
+            "ac_7": 3
+          },
+          "entrada": "b3_45",
+          "politica": {
+            "prioridade": "chegada",
+            "evitar_ponta": true,
+            "divisao": "igual"
+          }
+        },
+        "nota": 3100.0,
+        "metricas": {
+          "contratos": 271,
+          "certos": 270,
+          "upgrades": 0,
+          "nao_atendidos": 1,
+          "pico_kw": 21.00000000000001,
+          "energia_kwh": 4482.6245375588305,
+          "energia_ponta_kwh": 0,
+          "atendimento_pct": 99.6309963099631,
+          "demanda_contratada_kw": 0.0,
+          "custo_infra": 750
+        },
+        "custo_infra": {
+          "carregadores": 750,
+          "entrada": 0,
+          "total": 750
+        },
+        "fonte": "resultados/bangkok_h4_refino_politicas_avaliacoes.json"
+      },
+      "top_infraestruturas": [
+        {
+          "submissao": {
+            "agencia": "Bangkok",
+            "carregadores": {
+              "ac_7": 3
+            },
+            "entrada": "b3_45",
+            "politica": {
+              "prioridade": "chegada",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 3100.0,
+          "metricas": {
+            "contratos": 271,
+            "certos": 270,
+            "upgrades": 0,
+            "nao_atendidos": 1,
+            "pico_kw": 21.00000000000001,
+            "energia_kwh": 4482.6245375588305,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.6309963099631,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 750
+          },
+          "custo_infra": {
+            "carregadores": 750,
+            "entrada": 0,
+            "total": 750
+          },
+          "fonte": "resultados/bangkok_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Bangkok",
+            "carregadores": {
+              "ac_7": 4
+            },
+            "entrada": "b3_45",
+            "politica": {
+              "prioridade": "menor_soc",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 2850.0,
+          "metricas": {
+            "contratos": 271,
+            "certos": 270,
+            "upgrades": 0,
+            "nao_atendidos": 1,
+            "pico_kw": 27.999999999999947,
+            "energia_kwh": 4460.128421832692,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.6309963099631,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 1000
+          },
+          "custo_infra": {
+            "carregadores": 1000,
+            "entrada": 0,
+            "total": 1000
+          },
+          "fonte": "resultados/bangkok_h4_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Bangkok",
+            "carregadores": {
+              "ac_7": 5
+            },
+            "entrada": "b3_45",
+            "politica": {
+              "prioridade": "menor_soc",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 2600.0,
+          "metricas": {
+            "contratos": 271,
+            "certos": 270,
+            "upgrades": 0,
+            "nao_atendidos": 1,
+            "pico_kw": 34.9999999999999,
+            "energia_kwh": 4457.134306061467,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.6309963099631,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 1250
+          },
+          "custo_infra": {
+            "carregadores": 1250,
+            "entrada": 0,
+            "total": 1250
+          },
+          "fonte": "resultados/bangkok_h4_refino_avaliacoes.json"
+        }
+      ]
+    },
+    "Istanbul": {
+      "avaliacoes": 83,
+      "distintas": 81,
+      "melhor": {
+        "submissao": {
+          "agencia": "Istanbul",
+          "carregadores": {
+            "dc_30": 2,
+            "ac_7": 2
+          },
+          "entrada": "b3_75",
+          "politica": {
+            "prioridade": "proxima_retirada",
+            "evitar_ponta": true,
+            "divisao": "igual"
+          }
+        },
+        "nota": 6895.0,
+        "metricas": {
+          "contratos": 1293,
+          "certos": 1293,
+          "upgrades": 0,
+          "nao_atendidos": 0,
+          "pico_kw": 67.50000000000006,
+          "energia_kwh": 27650.23367814982,
+          "energia_ponta_kwh": 0,
+          "atendimento_pct": 100.0,
+          "demanda_contratada_kw": 0.0,
+          "custo_infra": 12500
+        },
+        "custo_infra": {
+          "carregadores": 7500,
+          "entrada": 5000,
+          "total": 12500
+        },
+        "fonte": "resultados/istanbul_h4_refino_politicas_avaliacoes.json"
+      },
+      "top_infraestruturas": [
+        {
+          "submissao": {
+            "agencia": "Istanbul",
+            "carregadores": {
+              "dc_30": 2,
+              "ac_7": 2
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 6895.0,
+          "metricas": {
+            "contratos": 1293,
+            "certos": 1293,
+            "upgrades": 0,
+            "nao_atendidos": 0,
+            "pico_kw": 67.50000000000006,
+            "energia_kwh": 27650.23367814982,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 100.0,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 12500
+          },
+          "custo_infra": {
+            "carregadores": 7500,
+            "entrada": 5000,
+            "total": 12500
+          },
+          "fonte": "resultados/istanbul_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Istanbul",
+            "carregadores": {
+              "dc_60x2": 1,
+              "ac_7": 2
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "menor_soc",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 6165.0,
+          "metricas": {
+            "contratos": 1293,
+            "certos": 1291,
+            "upgrades": 0,
+            "nao_atendidos": 2,
+            "pico_kw": 67.5000000000001,
+            "energia_kwh": 27565.96293828259,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.84532095901005,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 12800
+          },
+          "custo_infra": {
+            "carregadores": 7800,
+            "entrada": 5000,
+            "total": 12800
+          },
+          "fonte": "resultados/istanbul_h4_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Istanbul",
+            "carregadores": {
+              "dc_60x2": 1,
+              "ac_11": 2
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "menor_soc",
+              "evitar_ponta": true,
+              "divisao": "igual"
+            }
+          },
+          "nota": 4465.0,
+          "metricas": {
+            "contratos": 1293,
+            "certos": 1291,
+            "upgrades": 0,
+            "nao_atendidos": 2,
+            "pico_kw": 67.50000000000001,
+            "energia_kwh": 27562.12806726187,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.84532095901005,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 14500
+          },
+          "custo_infra": {
+            "carregadores": 9500,
+            "entrada": 5000,
+            "total": 14500
+          },
+          "fonte": "resultados/istanbul_h4_refino_avaliacoes.json"
+        }
+      ]
+    },
+    "Hanoi": {
+      "avaliacoes": 84,
+      "distintas": 82,
+      "melhor": {
+        "submissao": {
+          "agencia": "Hanoi",
+          "carregadores": {
+            "ac_22x2": 1,
+            "dc_30": 1,
+            "ac_7": 3
+          },
+          "entrada": "b3_75",
+          "politica": {
+            "prioridade": "proxima_retirada",
+            "evitar_ponta": false,
+            "divisao": "prioridade"
+          }
+        },
+        "nota": 5457.060961914756,
+        "metricas": {
+          "contratos": 1167,
+          "certos": 1161,
+          "upgrades": 6,
+          "nao_atendidos": 0,
+          "pico_kw": 67.49999999999997,
+          "energia_kwh": 20501.980147785594,
+          "energia_ponta_kwh": 2511.8780761704884,
+          "atendimento_pct": 100.0,
+          "demanda_contratada_kw": 0.0,
+          "custo_infra": 10750
+        },
+        "custo_infra": {
+          "carregadores": 5750,
+          "entrada": 5000,
+          "total": 10750
+        },
+        "fonte": "resultados/hanoi_h4_refino_politicas_avaliacoes.json"
+      },
+      "top_infraestruturas": [
+        {
+          "submissao": {
+            "agencia": "Hanoi",
+            "carregadores": {
+              "ac_22x2": 1,
+              "dc_30": 1,
+              "ac_7": 3
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 5457.060961914756,
+          "metricas": {
+            "contratos": 1167,
+            "certos": 1161,
+            "upgrades": 6,
+            "nao_atendidos": 0,
+            "pico_kw": 67.49999999999997,
+            "energia_kwh": 20501.980147785594,
+            "energia_ponta_kwh": 2511.8780761704884,
+            "atendimento_pct": 100.0,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 10750
+          },
+          "custo_infra": {
+            "carregadores": 5750,
+            "entrada": 5000,
+            "total": 10750
+          },
+          "fonte": "resultados/hanoi_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Hanoi",
+            "carregadores": {
+              "ac_22x2": 2,
+              "dc_30": 1,
+              "ac_7": 1
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "igual"
+            }
+          },
+          "nota": 4468.072309133391,
+          "metricas": {
+            "contratos": 1167,
+            "certos": 1161,
+            "upgrades": 6,
+            "nao_atendidos": 0,
+            "pico_kw": 67.4999999999999,
+            "energia_kwh": 20504.748132709763,
+            "energia_ponta_kwh": 2489.855381733217,
+            "atendimento_pct": 100.0,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 11750
+          },
+          "custo_infra": {
+            "carregadores": 6750,
+            "entrada": 5000,
+            "total": 11750
+          },
+          "fonte": "resultados/hanoi_h4_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Hanoi",
+            "carregadores": {
+              "dc_30": 2,
+              "ac_7": 2
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "chegada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 2735.3356961610302,
+          "metricas": {
+            "contratos": 1167,
+            "certos": 1161,
+            "upgrades": 1,
+            "nao_atendidos": 5,
+            "pico_kw": 67.49999999999972,
+            "energia_kwh": 20441.532052638413,
+            "energia_ponta_kwh": 2375.3286076779395,
+            "atendimento_pct": 99.57155098543274,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 12500
+          },
+          "custo_infra": {
+            "carregadores": 7500,
+            "entrada": 5000,
+            "total": 12500
+          },
+          "fonte": "resultados/hanoi_h4_avaliacoes.json"
+        }
+      ]
+    },
+    "Marrakech": {
+      "avaliacoes": 82,
+      "distintas": 81,
+      "melhor": {
+        "submissao": {
+          "agencia": "Marrakech",
+          "carregadores": {
+            "ac_7": 3,
+            "ac_22x2": 2,
+            "dc_30": 1
+          },
+          "entrada": "a4_150",
+          "demanda_contratada_kw": 110,
+          "politica": {
+            "prioridade": "proxima_retirada",
+            "evitar_ponta": true,
+            "divisao": "prioridade"
+          }
+        },
+        "nota": 1875.0,
+        "metricas": {
+          "contratos": 1230,
+          "certos": 1155,
+          "upgrades": 65,
+          "nao_atendidos": 10,
+          "pico_kw": 94.99999999999456,
+          "energia_kwh": 21127.16081076321,
+          "energia_ponta_kwh": 0,
+          "atendimento_pct": 99.1869918699187,
+          "demanda_contratada_kw": 110,
+          "custo_infra": 13750
+        },
+        "custo_infra": {
+          "carregadores": 7250,
+          "entrada": 6500,
+          "total": 13750
+        },
+        "fonte": "resultados/marrakech_h4_refino_politicas_avaliacoes.json"
+      },
+      "top_infraestruturas": [
+        {
+          "submissao": {
+            "agencia": "Marrakech",
+            "carregadores": {
+              "ac_7": 3,
+              "ac_22x2": 2,
+              "dc_30": 1
+            },
+            "entrada": "a4_150",
+            "demanda_contratada_kw": 110,
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": true,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 1875.0,
+          "metricas": {
+            "contratos": 1230,
+            "certos": 1155,
+            "upgrades": 65,
+            "nao_atendidos": 10,
+            "pico_kw": 94.99999999999456,
+            "energia_kwh": 21127.16081076321,
+            "energia_ponta_kwh": 0,
+            "atendimento_pct": 99.1869918699187,
+            "demanda_contratada_kw": 110,
+            "custo_infra": 13750
+          },
+          "custo_infra": {
+            "carregadores": 7250,
+            "entrada": 6500,
+            "total": 13750
+          },
+          "fonte": "resultados/marrakech_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Marrakech",
+            "carregadores": {
+              "ac_7": 3,
+              "ac_22x2": 2,
+              "dc_30": 1
+            },
+            "entrada": "a4_150",
+            "demanda_contratada_kw": 120,
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 914.4812550432016,
+          "metricas": {
+            "contratos": 1230,
+            "certos": 1159,
+            "upgrades": 61,
+            "nao_atendidos": 10,
+            "pico_kw": 94.99999999999456,
+            "energia_kwh": 21119.6453768795,
+            "energia_ponta_kwh": 1937.0374899135957,
+            "atendimento_pct": 99.1869918699187,
+            "demanda_contratada_kw": 120,
+            "custo_infra": 13750
+          },
+          "custo_infra": {
+            "carregadores": 7250,
+            "entrada": 6500,
+            "total": 13750
+          },
+          "fonte": "resultados/marrakech_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Marrakech",
+            "carregadores": {
+              "ac_7": 3,
+              "ac_22x2": 2,
+              "dc_30": 1
+            },
+            "entrada": "a4_150",
+            "demanda_contratada_kw": 130,
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 912.6221063882094,
+          "metricas": {
+            "contratos": 1230,
+            "certos": 1160,
+            "upgrades": 60,
+            "nao_atendidos": 10,
+            "pico_kw": 94.99999999999456,
+            "energia_kwh": 21184.40930686659,
+            "energia_ponta_kwh": 1914.7557872235798,
+            "atendimento_pct": 99.1869918699187,
+            "demanda_contratada_kw": 130,
+            "custo_infra": 13750
+          },
+          "custo_infra": {
+            "carregadores": 7250,
+            "entrada": 6500,
+            "total": 13750
+          },
+          "fonte": "resultados/marrakech_h4_refino_politicas_avaliacoes.json"
+        }
+      ]
+    },
+    "Zurich": {
+      "avaliacoes": 84,
+      "distintas": 82,
+      "melhor": {
+        "submissao": {
+          "agencia": "Zurich",
+          "carregadores": {
+            "ac_7": 2,
+            "dc_30": 2
+          },
+          "entrada": "b3_75",
+          "politica": {
+            "prioridade": "proxima_retirada",
+            "evitar_ponta": false,
+            "divisao": "prioridade"
+          }
+        },
+        "nota": 2341.193338044068,
+        "metricas": {
+          "contratos": 867,
+          "certos": 837,
+          "upgrades": 21,
+          "nao_atendidos": 9,
+          "pico_kw": 67.50000000000001,
+          "energia_kwh": 14502.080479014792,
+          "energia_ponta_kwh": 2163.613323911865,
+          "atendimento_pct": 98.96193771626298,
+          "demanda_contratada_kw": 0.0,
+          "custo_infra": 7500
+        },
+        "custo_infra": {
+          "carregadores": 7500,
+          "entrada": 0,
+          "total": 7500
+        },
+        "fonte": "resultados/zurich_h4_refino_politicas_avaliacoes.json"
+      },
+      "top_infraestruturas": [
+        {
+          "submissao": {
+            "agencia": "Zurich",
+            "carregadores": {
+              "ac_7": 2,
+              "dc_30": 2
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 2341.193338044068,
+          "metricas": {
+            "contratos": 867,
+            "certos": 837,
+            "upgrades": 21,
+            "nao_atendidos": 9,
+            "pico_kw": 67.50000000000001,
+            "energia_kwh": 14502.080479014792,
+            "energia_ponta_kwh": 2163.613323911865,
+            "atendimento_pct": 98.96193771626298,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 7500
+          },
+          "custo_infra": {
+            "carregadores": 7500,
+            "entrada": 0,
+            "total": 7500
+          },
+          "fonte": "resultados/zurich_h4_refino_politicas_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Zurich",
+            "carregadores": {
+              "ac_7": 2,
+              "dc_60x2": 1
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 2252.4040820221226,
+          "metricas": {
+            "contratos": 867,
+            "certos": 843,
+            "upgrades": 16,
+            "nao_atendidos": 8,
+            "pico_kw": 67.50000000000001,
+            "energia_kwh": 14526.818201211336,
+            "energia_ponta_kwh": 2241.191835955755,
+            "atendimento_pct": 99.07727797001154,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 7800
+          },
+          "custo_infra": {
+            "carregadores": 7800,
+            "entrada": 0,
+            "total": 7800
+          },
+          "fonte": "resultados/zurich_h4_refino_avaliacoes.json"
+        },
+        {
+          "submissao": {
+            "agencia": "Zurich",
+            "carregadores": {
+              "ac_22x2": 1,
+              "dc_60x2": 1
+            },
+            "entrada": "b3_75",
+            "politica": {
+              "prioridade": "proxima_retirada",
+              "evitar_ponta": false,
+              "divisao": "prioridade"
+            }
+          },
+          "nota": 1492.861220329875,
+          "metricas": {
+            "contratos": 867,
+            "certos": 842,
+            "upgrades": 18,
+            "nao_atendidos": 7,
+            "pico_kw": 67.49999999999997,
+            "energia_kwh": 14509.97763687678,
+            "energia_ponta_kwh": 2162.27755934025,
+            "atendimento_pct": 99.19261822376009,
+            "demanda_contratada_kw": 0.0,
+            "custo_infra": 8800
+          },
+          "custo_infra": {
+            "carregadores": 8800,
+            "entrada": 0,
+            "total": 8800
+          },
+          "fonte": "resultados/zurich_h4_politicas_avaliacoes.json"
+        }
+      ]
+    }
+  }
+}
