@@ -8,6 +8,7 @@ Variáveis de ambiente: GAMEDAY_URL e GAMEDAY_TOKEN.
   python -m kickoff.api kit AG
   python -m kickoff.api teste AG SUB.json [--completo] [--salvar F]
 """
+import base64
 import io
 import json
 import os
@@ -75,7 +76,11 @@ class Cliente:
         """Baixa `/agencias/{ag}/kit` e extrai em `destino` (padrão: dados/ do kit). Devolve a pasta da agência."""
         destino = Path(destino) if destino else RAIZ_KIT / "dados"
         destino.mkdir(parents=True, exist_ok=True)
-        with zipfile.ZipFile(io.BytesIO(self._req("GET", f"/agencias/{ag}/kit"))) as z:
+        corpo = self._req("GET", f"/agencias/{ag}/kit")
+        # Algumas respostas do API Gateway entregam o ZIP codificado em Base64.
+        if not corpo.startswith(b"PK"):
+            corpo = base64.b64decode(corpo, validate=True)
+        with zipfile.ZipFile(io.BytesIO(corpo)) as z:
             raiz = destino.resolve()
             for n in z.namelist():
                 if not (raiz / n).resolve().is_relative_to(raiz):

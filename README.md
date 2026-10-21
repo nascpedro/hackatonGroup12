@@ -8,15 +8,17 @@ Repositório de trabalho da equipe para modelar a recarga de agências de locaç
 |---|---|
 | [`REGULAMENTO.md`](REGULAMENTO.md) | Regulamento oficial obtido em `GET /instrucoes` em 21/10/2026; consultar a API para atualizações e o anexo H4 |
 | [`kit_kickoff/dados/Bangkok/`](kit_kickoff/dados/Bangkok/) | Dados públicos da agência tutorial: 80 veículos, 271 contratos, carregadores, entradas e curvas |
+| [`kit_kickoff/dados/Istanbul/`](kit_kickoff/dados/Istanbul/) | Dados públicos da agência pontuada: 235 veículos, 1.293 contratos e 4 vagas elétricas |
+| [`kit_kickoff/dados/Hanoi/`](kit_kickoff/dados/Hanoi/) | Dados públicos da agência pontuada: 305 veículos, 1.167 contratos e 6 vagas elétricas |
 | [`kit_kickoff/`](kit_kickoff/) | Simulador inicial, cliente da API, comparador e testes fornecidos no kickoff |
 | [`COMANDOS.md`](COMANDOS.md) | Preparação do ambiente e comandos para dados, API, testes e comparação |
 | [`.env.example`](.env.example) | Formato do arquivo local do token; preencher `.env` apenas na própria máquina |
 
 ## Estado atual — 21/10/2026
 
-- Equipe **#12** cadastrada na API. Bangkok está liberada; as agências pontuadas ainda não apareciam em `GET /status` na última verificação.
+- Equipe **#12** cadastrada na API. A fase é **Neblina (H0)**; Bangkok, Istanbul e Hanoi estão liberadas em `GET /status`.
 - O teste oficial **gratuito** da submissão `kit_kickoff/exemplo_submissao.json` em Bangkok foi válido, sem violações: **271/271 contratos atendidos**, pico de **40,5 kW** e **4.512,24 kWh** nas semanas públicas. A nota retornada foi **14,475**, calculada pelo juiz com pesos ainda ocultos. O saldo permaneceu em **1.000 m7Coins**.
-- O simulador local ainda é um **esqueleto**. Com a mesma submissão, ele registra 0% de atendimento; os métodos `TODO` de `kit_kickoff/kickoff/motor.py` precisam ser implementados. Os 11 testes originais passam com os dados de Bangkok no caminho padrão.
+- O simulador local ainda é um **esqueleto**. Com a mesma submissão, ele registra 0% de atendimento; os métodos `TODO` de `kit_kickoff/kickoff/motor.py` precisam ser implementados. Os 11 testes originais passam; Istanbul e Hanoi também carregam no leitor do kit.
 - Nenhum envio final foi feito nesta preparação. Bangkok é tutorial e não pontua.
 
 ## Próximas etapas
