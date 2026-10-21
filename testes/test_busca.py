@@ -40,6 +40,22 @@ class BuscaLocal(unittest.TestCase):
         self.assertEqual(relatorio["avaliadas"], 3)
         self.assertEqual(relatorio["resultados"], sorted(relatorio["resultados"], key=buscar.chave_ranking))
         self.assertTrue(all(not r["violacoes"] for r in relatorio["resultados"]))
+        self.assertTrue(relatorio["fronteira_indices"])
+
+    def test_fronteira_preserva_trocas_e_descarta_dominada(self):
+        def item(certos, perdidos, demanda, ponta, carregadores, pico=100):
+            return {"metricas": {"certos": certos, "upgrades": 0,
+                                 "nao_atendidos": perdidos,
+                                 "demanda_contratada_kw": demanda,
+                                 "energia_ponta_kwh": ponta,
+                                 "pico_kw": pico, "energia_kwh": pico},
+                    "infraestrutura": {"entrada_kw_util": 40.5,
+                                       "carregadores": carregadores,
+                                       "potencia_instalada_kw": 7 * carregadores},
+                    "violacoes": []}
+        resultados = [item(10, 0, 0, 5, 2), item(10, 0, 0, 5, 3, pico=1),
+                      item(9, 1, 0, 5, 1), item(10, 0, 10, 0, 2)]
+        self.assertEqual(buscar.fronteira_indices(resultados), [0, 2, 3])
 
     def test_cenarios_alternativos_respeitam_contratos_e_limites(self):
         casos = (

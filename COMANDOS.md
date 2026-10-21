@@ -14,8 +14,9 @@ comando roda no GitHub Actions, sem secrets.
 
 Os testes locais também cobrem cenários alternativos em Bangkok, Istanbul e
 Hanoi: conservação dos contratos, limite de potência, vagas e energia na ponta.
-Esses cenários verificam consistência interna; só a referência salva de Bangkok
-foi comparada com o juiz. Para acrescentar outra resposta oficial **já salva**:
+Esses cenários verificam consistência interna; as três referências salvas de
+Bangkok foram comparadas com o juiz. Para acrescentar outra resposta oficial
+**já salva**:
 
 ```bash
 python3 scripts/check_local.py --strict \
@@ -33,13 +34,30 @@ python3 scripts/buscar.py Hanoi --max-avaliacoes 48 --seed 12 \
   --saida resultados/hanoi.json
 ```
 
-O JSON guarda todas as submissões prontas para validação, métricas e violações.
-O comando também grava `*_top5.json`, uma lista de cinco submissões que pode
-ser passada diretamente a `simular.py`.
-`resultados/` é ignorado pelo Git. A ordenação é uma heurística provisória:
-atendimento, categoria exata e infraestrutura aproximada vêm antes de pico e
-energia de ponta. Ela não representa a nota do juiz nem inclui custos/pesos de
-H4 ou desempenho nas semanas ocultas.
+O JSON guarda **todas** as submissões, métricas e violações. O comando também
+grava `*_fronteira.json`, com as soluções não dominadas pelos objetivos
+provisórios, e `*_top5.json`, uma lista de consulta. Ambos podem ser passados
+diretamente a `simular.py`. A fronteira usa atendimento, categoria exata,
+demanda, energia na ponta e aproximações de infraestrutura. Pico e energia
+total ficam apenas como métricas de diagnóstico: não entram diretamente na nota.
+`resultados/` é ignorado pelo Git. Nenhuma ordenação pré-H4 equivale à nota do
+juiz; preserve o JSON completo para a reclassificação.
+
+Depois de H4, atualize `dados/catalogo.json` com custos e pesos oficiais e
+reclassifique **sem ressimular** as avaliações já salvas:
+
+```bash
+python3 scripts/reclassificar.py resultados/bangkok.json --catalogo dados/catalogo.json
+python3 scripts/reclassificar.py resultados/istanbul.json --catalogo dados/catalogo.json
+python3 scripts/reclassificar.py resultados/hanoi.json --catalogo dados/catalogo.json
+```
+
+O comando recusa um catálogo sem os seis pesos ou os custos usados pelas
+submissões. Ele grava `*_pontuado.json` com a decomposição da nota e o hash do
+catálogo, além de `*_pontuado_top5.json`. Se os pesos mudarem, rode a
+reclassificação novamente. Se eventos operacionais alterarem a simulação,
+gere novas avaliações antes de reclassificar. A nota é calculada das métricas
+**locais das semanas públicas**, não das semanas ocultas.
 
 Os comandos manuais abaixo também são executados na raiz do repositório.
 
@@ -108,7 +126,7 @@ python3 simular.py exemplo_submissao.json
 python3 simular.py exemplo_submissao.json --series > dados/bangkok_local_series.json
 ```
 
-Os 25 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
+Os 28 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
 físicas e séries de 15 minutos do juiz para a referência salva.
 
 ## Comparar com o juiz em Bangkok

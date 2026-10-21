@@ -108,20 +108,42 @@ def avaliar(cenario, sub):
 
 
 def chave_ranking(item):
-    """Heurística provisória; não representa a nota do juiz."""
+    """Ordem de consulta provisória; não representa a nota do juiz."""
     m = item["metricas"]
     infra = item["infraestrutura"]
     return (len(item["violacoes"]) > 0, -m["certos"] - m["upgrades"],
-            -m["certos"], infra["entrada_kw_util"], infra["carregadores"],
-            infra["potencia_instalada_kw"], m["pico_kw"], m["energia_ponta_kwh"])
+            -m["certos"], m["demanda_contratada_kw"], m["energia_ponta_kwh"],
+            infra["entrada_kw_util"], infra["carregadores"], infra["potencia_instalada_kw"])
+
+
+def objetivos_provisorios(item):
+    """Menor é melhor. Infraestrutura é apenas aproximação até H4."""
+    m, infra = item["metricas"], item["infraestrutura"]
+    return (-m["certos"] - m["upgrades"], -m["certos"],
+            m["demanda_contratada_kw"], m["energia_ponta_kwh"],
+            infra["entrada_kw_util"], infra["carregadores"], infra["potencia_instalada_kw"])
+
+
+def domina(a, b, tolerancia=1e-8):
+    """A é pelo menos tão bom em tudo e estritamente melhor em algo."""
+    return (all(x <= y + tolerancia for x, y in zip(a, b))
+            and any(x < y - tolerancia for x, y in zip(a, b)))
+
+
+def fronteira_indices(resultados):
+    vetores = [objetivos_provisorios(r) for r in resultados]
+    validos = [i for i, r in enumerate(resultados) if not r["violacoes"]]
+    return [i for i in validos if not any(domina(vetores[j], vetores[i])
+                                        for j in validos if j != i)]
 
 
 def buscar(cenario, quantidade, seed=12, base=None):
     resultados = [avaliar(cenario, sub) for sub in gerar_candidatos(cenario, quantidade, seed, base)]
     resultados.sort(key=chave_ranking)
     return {"agencia": cenario.agencia.nome, "periodo": "publico",
-            "criterio": "atendimento, categoria exata, infraestrutura aproximada, pico, energia de ponta; sem custos ou pesos oficiais",
-            "avaliadas": len(resultados), "seed": seed, "resultados": resultados}
+            "criterio": "fronteira provisoria: atendimento, categoria exata, demanda, energia de ponta e proxies de infraestrutura; sem custos ou pesos oficiais",
+            "avaliadas": len(resultados), "seed": seed,
+            "fronteira_indices": fronteira_indices(resultados), "resultados": resultados}
 
 
 def main(argv=None):
@@ -144,17 +166,24 @@ def main(argv=None):
         candidatas = a.saida.with_name(a.saida.stem + "_top5.json")
         candidatas.write_text(json.dumps([r["submissao"] for r in relatorio["resultados"][:5]],
                                          ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        fronteira = a.saida.with_name(a.saida.stem + "_fronteira.json")
+        fronteira.write_text(json.dumps([relatorio["resultados"][i]["submissao"]
+                                        for i in relatorio["fronteira_indices"]],
+                                       ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     sys.stdout.reconfigure(encoding="utf-8")
-    print(f"{a.agencia}: {relatorio['avaliadas']} configurações válidas simuladas (sem API)")
+    print(f"{a.agencia}: {relatorio['avaliadas']} configurações válidas simuladas; "
+          f"{len(relatorio['fronteira_indices'])} na fronteira provisória (sem API)")
     for i, item in enumerate(relatorio["resultados"][:5], 1):
         m = item["metricas"]
         print(f"{i}. atendidos={m['certos'] + m['upgrades']}/{m['contratos']} "
-              f"certos={m['certos']} pico={m['pico_kw']:.2f} kW "
+              f"certos={m['certos']} demanda={m['demanda_contratada_kw']:.0f} kW "
+              f"ponta={m['energia_ponta_kwh']:.2f} kWh "
               f"violações={len(item['violacoes'])} "
               f"sub={json.dumps(item['submissao'], ensure_ascii=False, sort_keys=True)}")
     if a.saida:
         print(f"Resultados completos: {a.saida}")
         print(f"Cinco submissões para simular localmente: {candidatas}")
+        print(f"Fronteira provisória para simular localmente: {fronteira}")
 
 
 if __name__ == "__main__":
