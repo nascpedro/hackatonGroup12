@@ -1,5 +1,7 @@
 # Kit de kickoff
 
+> Este é o documento original do kit. Neste repositório, o conteúdo já está na raiz e o motor foi implementado até as políticas de recarga. Para o estado atual e os comandos sem API, consulte `README.md` e `COMANDOS.md`.
+
 Ponto de partida para a equipe construir o seu próprio simulador do juiz e conferir submissões na janela pública sem gastar m7Coins.
 
 ## 1. O que é o kit

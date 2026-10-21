@@ -1,10 +1,18 @@
 # Comandos úteis — Hackathon Recarga Inteligente
 
-Execute os comandos abaixo na pasta `kit_kickoff/`, a partir da raiz deste projeto:
+## Pipeline local, sem token
+
+Na raiz do projeto:
 
 ```bash
-cd kit_kickoff
+python3 scripts/check_local.py --strict
 ```
+
+Esse comando roda os testes e compara todas as métricas e séries de Bangkok
+com uma resposta oficial já salva. Não lê `.env` nem chama a API. O mesmo
+comando roda no GitHub Actions, sem secrets.
+
+Os comandos manuais abaixo também são executados na raiz do repositório.
 
 O projeto usa Python 3.10+ e apenas a biblioteca padrão. Neste ambiente, o executável é `python3`.
 
@@ -20,11 +28,11 @@ Para uma agência liberada mais tarde, baixe seu kit com `python3 -m kickoff.api
 
 ## Configurar a API nesta sessão do terminal
 
-O token está em `../.env` como `TOKEN=...`. Os comandos abaixo o carregam sem imprimi-lo:
+O token está em `.env` como `TOKEN=...`. Os comandos abaixo o carregam sem imprimi-lo:
 
 ```bash
 export GAMEDAY_URL='https://z8tfjfyhgj.execute-api.us-east-1.amazonaws.com/prod'
-export GAMEDAY_TOKEN="$(sed -n 's/^TOKEN=//p' ../.env)"
+export GAMEDAY_TOKEN="$(sed -n 's/^TOKEN=//p' .env)"
 ```
 
 Não publique nem versione o arquivo `.env` ou o valor do token. Em cada novo terminal, repita esses dois `export`.
@@ -71,7 +79,8 @@ python3 simular.py exemplo_submissao.json
 python3 simular.py exemplo_submissao.json --series > dados/bangkok_local_series.json
 ```
 
-Os 11 testes originais devem executar. O motor em `kickoff/motor.py` ainda contém regras `TODO`; até implementá-las, o resultado local de Bangkok registra 0% de atendimento.
+Os 22 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
+físicas e séries de 15 minutos do juiz para a referência salva.
 
 ## Comparar com o juiz em Bangkok
 

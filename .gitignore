@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Artefatos locais do hackathon
+dados/*_local*.json
+Recarga Inteligente — Instruções.pdf
