@@ -93,6 +93,43 @@ Nota pública local: **11.900**, sem perdidos ou upgrades. Omitir a demanda vale
 O [relatório de Vienna](relatorios/2026-10-21-vienna.md) explica as alternativas e
 a diferença entre teste público e nota final nas semanas ocultas.
 
+## Marrakech: simular com o corte ativo
+
+O evento está em `dados/eventos_marrakech.json`: limite multiplicado por 0,7
+entre os minutos 31680 e 34560. Use o arquivo em todas as simulações da agência:
+
+```bash
+python3 simular.py resultados/marrakech_proximo_teste.json --eventos dados/eventos_marrakech.json
+```
+
+A recomendação usa **1 DC-30 + 9 AC-7, A4-150, 130 kW**, próxima retirada,
+evitar ponta e divisão igual. Prevê **5.793 pontos públicos** com nenhum perdido;
+durante o corte o limite é 91 kW. A variante de 120 kW marca 5.806, mas foi mais
+sensível à mudança do calendário do corte. Parâmetros, busca e comparação estão
+no [relatório de Marrakech](relatorios/2026-10-21-marrakech-refino-evento.md).
+
+## Zurich: busca e cenários de continuidade, sem API
+
+A seleção de Zurich considera a nota pública e o comportamento da frota nas
+semanas seguintes. O script abaixo usa apenas dados locais, com quatro processos
+por padrão. Use `--jobs 1` para executar em sequência.
+
+```bash
+python3 scripts/analisar_zurich.py busca --eventos dados/eventos_zurich.json --saida resultados/zurich_busca_robusta.json
+python3 scripts/analisar_zurich.py cenarios --submissoes resultados/zurich_finalistas.json --eventos dados/eventos_zurich.json --saida resultados/zurich_cenarios_robustos.json
+python3 simular.py resultados/zurich_proximo_teste.json --eventos dados/eventos_zurich.json
+```
+
+Foram avaliadas 342 configurações públicas e 21 finalistas em sete cenários.
+Os cenários repetem ou alteram contratos públicos e **não preveem as semanas
+ocultas**. A continuação preserva o estado da frota, sem reiniciar o SOC.
+
+A candidata indicada usa **1 DC-60 de duas saídas + 2 AC-7, B3-75 existente**,
+próxima retirada, divisão por prioridade e `evitar_ponta=false`: 2.252,40 pontos
+públicos e 2.768,05 na continuação sintética. O snapshot utilizado não tem eventos
+para Zurich. Resultados, alternativas e limitações estão no
+[relatório de Zurich](relatorios/2026-10-21-zurich-continuidade.md).
+
 ## Configurar a API nesta sessão do terminal
 
 O token está em `.env` como `TOKEN=...`. Os comandos abaixo o carregam sem imprimi-lo:
@@ -146,7 +183,7 @@ python3 simular.py exemplo_submissao.json
 python3 simular.py exemplo_submissao.json --series > dados/bangkok_local_series.json
 ```
 
-Os 29 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
+Os 36 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
 físicas e séries de 15 minutos do juiz para a referência salva.
 
 ## Comparar com o juiz em Bangkok

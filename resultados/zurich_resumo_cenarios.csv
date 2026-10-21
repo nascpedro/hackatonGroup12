@@ -1,0 +1,148 @@
+candidata,carregadores,politica,entrada,cenario,nota,contratos,certos,upgrades,nao_atendidos,custo_infra,energia_ponta_kwh
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,2341.19,867,837,21,9,7500,2163.61
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,1574.61,867,820,35,12,7500,2210.78
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-3082.64,910,828,46,36,7500,2341.28
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9773.75,953,826,57,70,7500,2239.5
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,845.34,867,818,34,15,7500,2393.31
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,1422.87,867,824,30,13,7500,2154.27
+Z01,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-2868.35,867,788,47,32,7500,2328.69
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,2990.37,867,840,21,6,7550,2055.26
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,1546.76,867,821,34,12,7550,2180.49
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-1968.35,910,838,41,31,7550,2232.69
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-8824.11,953,836,51,66,7550,2044.22
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,1255.61,867,819,35,13,7550,2318.77
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,287.65,867,817,32,18,7550,2146.71
+Z02,"{""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-2875.25,867,794,41,32,7550,2326.49
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,2252.4,867,843,16,8,7800,2241.19
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,2768.05,867,825,37,5,7800,2205.89
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-2556.29,910,836,41,33,7800,2048.58
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-7928.49,953,830,63,60,7800,2164.98
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,1622.16,867,821,36,10,7800,2361.69
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,1734.09,867,825,32,10,7800,2193.81
+Z03,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-4196.72,867,783,47,37,7800,2235.43
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1979.52,867,843,17,7,8400,2002.96
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,909.16,867,822,34,11,8400,2185.68
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-3840.75,910,835,39,36,8400,2155.5
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9397.3,953,829,60,64,8400,2224.6
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,414.15,867,819,35,13,8400,2301.7
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,-138.02,867,817,34,16,8400,2130.05
+Z04,"{""ac_11"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-5066.85,867,771,58,38,8400,2191.71
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1184.71,867,837,21,9,8650,2176.59
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,429.82,867,818,37,12,8650,2172.36
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-2761.75,910,844,36,30,8650,2119.5
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9663.87,953,830,59,64,8650,2271.73
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,523.04,867,820,36,11,8650,2429.92
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,259.08,867,825,29,13,8650,2195.83
+Z05,"{""ac_11"": 1, ""ac_7"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-4041.53,867,786,49,32,8650,2347.06
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1492.86,867,842,18,7,8800,2162.28
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,726.06,867,825,32,10,8800,2209.87
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-2981.78,910,839,41,30,8800,2189.57
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9941.85,953,836,52,65,8800,2195.7
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,-235.44,867,815,38,14,8800,2328.88
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,347.91,867,827,28,12,8800,2162.17
+Z06,"{""ac_22x2"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-6083.88,867,775,51,41,8800,2233.77
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1531.94,867,841,17,9,8350,2138.12
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,327.55,867,828,25,14,8350,2284.9
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-3011.92,910,836,42,32,8350,2275.84
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9501.96,953,836,52,65,8350,2215.92
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,665.18,867,824,31,12,8350,2385.63
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,752.56,867,819,36,12,8350,2140.88
+Z07,"{""ac_11"": 1, ""ac_7"": 1, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-4553.45,867,785,46,36,8350,2292.89
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,-464.78,867,843,17,7,10750,2191.55
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,-1408.24,867,829,27,11,10750,2218.48
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-5031.63,910,834,46,30,10750,2319.25
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-11117.68,953,837,55,61,10750,2325.36
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,-1749.54,867,826,29,12,10750,2443.09
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,-2072.9,867,822,31,14,10750,2201.81
+Z08,"{""ac_7"": 1, ""dc_30"": 3}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-6924.26,867,786,45,36,10750,2248.53
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,110.49,867,845,18,4,10800,2217.03
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,-829.12,867,828,31,8,10800,2194.25
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-4765.19,910,842,39,29,10800,2214.39
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-9603.03,953,845,54,54,10800,2220.06
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,-1377.9,867,824,33,10,10800,2403.79
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,-1285.2,867,824,33,10,10800,2218.39
+Z09,"{""dc_30"": 1, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-7657.4,867,778,50,39,10800,2254.81
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,2209.11,867,821,37,9,7500,2203.78
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,1132.5,867,818,35,14,7500,2235.0
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-1662.53,910,826,55,29,7500,2385.05
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-7946.65,953,830,62,61,7500,2385.3
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,1048.94,867,819,34,14,7500,2416.12
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,66.7,867,813,35,19,7500,2216.6
+Z10,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-3810.7,867,768,63,36,7500,2269.4
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1366.85,867,828,27,12,7800,2138.3
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,1316.29,867,821,34,12,7800,2141.42
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-2928.36,910,829,47,34,7800,2278.73
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-7699.08,953,840,54,59,7800,2262.17
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,1196.79,867,819,36,12,7800,2352.41
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,445.78,867,817,34,16,7800,2162.44
+Z11,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-5695.95,867,767,56,44,7800,2097.89
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,publico,1002.0,867,818,29,20,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,continuacao,322.0,867,810,34,23,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_5pct,-5602.0,910,806,51,53,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,demanda_mais_10pct,-11636.0,953,816,53,84,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,devolucao_menos_10pct_km,-1884.0,867,792,42,33,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,retiradas_30min_antes,23.0,867,797,46,24,7500,0
+Z12,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": true, ""prioridade"": ""proxima_retirada""}",b3_75,semanas_reordenadas,-4749.0,867,769,52,46,7500,0
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,publico,-4974.07,867,835,20,12,14000,2198.15
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,continuacao,-2898.2,867,829,36,2,14000,2122.4
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,demanda_mais_5pct,-7994.5,910,833,49,28,14000,2243.0
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,demanda_mais_10pct,-13352.7,953,841,56,56,14000,2111.4
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,devolucao_menos_10pct_km,-4341.16,867,819,40,8,14000,2372.32
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,retiradas_30min_antes,-5512.02,867,820,33,14,14000,2232.04
+Z13,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""proxima_retirada""}",a4_150,semanas_reordenadas,-9269.61,867,793,43,31,14000,2297.21
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,publico,461.49,867,835,14,18,7500,2151.01
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,continuacao,-422.5,867,825,20,22,7500,2115.0
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_5pct,-4563.64,910,834,32,44,7500,2059.29
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_10pct,-10495.4,953,836,43,74,7500,2158.79
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,devolucao_menos_10pct_km,-1045.49,867,810,33,24,7500,2318.98
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,retiradas_30min_antes,-887.06,867,819,24,24,7500,2128.11
+Z14,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,semanas_reordenadas,-5290.05,867,786,37,44,7500,2152.1
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,publico,550.55,867,839,10,18,7500,2028.91
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,continuacao,-678.01,867,828,16,23,7500,2252.02
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_5pct,-3924.32,910,843,26,41,7500,2154.64
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_10pct,-11378.68,953,833,42,78,7500,2219.36
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,devolucao_menos_10pct_km,-904.5,867,823,20,24,7500,2219.0
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,retiradas_30min_antes,-1726.46,867,818,21,28,7500,2128.92
+Z15,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,semanas_reordenadas,-5114.01,867,784,40,43,7500,2188.03
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,publico,-7250.22,867,790,23,54,7500,1968.44
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,continuacao,-5405.93,867,790,32,45,7500,2023.87
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_5pct,-12334.65,910,788,42,80,7500,1981.3
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_10pct,-17694.5,953,800,45,108,7500,1909.0
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,devolucao_menos_10pct_km,-6578.09,867,785,32,50,7500,2218.19
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,retiradas_30min_antes,-5651.82,867,786,35,46,7500,2043.64
+Z16,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,semanas_reordenadas,-10526.87,867,748,51,68,7500,2109.75
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,publico,-5705.6,867,800,20,47,7500,1931.19
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,continuacao,-5675.1,867,785,36,46,7500,2076.2
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_5pct,-12297.69,910,790,40,80,7500,1935.39
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_10pct,-18647.02,953,794,47,112,7500,2066.04
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,devolucao_menos_10pct_km,-7256.22,867,777,37,53,7500,2214.44
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,retiradas_30min_antes,-5435.75,867,787,35,45,7500,2041.49
+Z17,"{""ac_7"": 2, ""dc_30"": 2}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,semanas_reordenadas,-11603.82,867,737,57,73,7500,2029.65
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,publico,616.33,867,840,11,16,7800,2143.34
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,continuacao,-501.65,867,827,19,21,7800,2117.29
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_5pct,-3390.35,910,842,31,37,7800,2136.71
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_10pct,-11164.79,953,838,39,76,7800,2093.58
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,devolucao_menos_10pct_km,-1094.68,867,814,30,23,7800,2289.35
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,retiradas_30min_antes,-1120.81,867,824,19,24,7800,2065.63
+Z18,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,semanas_reordenadas,-5199.25,867,789,36,42,7800,2244.5
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,publico,644.46,867,841,10,16,7800,2101.07
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,continuacao,-343.24,867,825,22,20,7800,2188.48
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_5pct,-3991.69,910,843,27,40,7800,2105.39
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,demanda_mais_10pct,-11431.21,953,831,45,77,7800,2112.43
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,devolucao_menos_10pct_km,-1109.18,867,815,29,23,7800,2332.36
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,retiradas_30min_antes,-530.36,867,826,20,21,7800,2160.72
+Z19,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""chegada""}",b3_75,semanas_reordenadas,-5599.17,867,790,33,44,7800,2226.34
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,publico,-6427.6,867,795,23,49,7800,1873.2
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,continuacao,-5746.98,867,783,39,45,7800,2007.97
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_5pct,-11388.04,910,796,40,74,7800,2096.08
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_10pct,-18463.59,953,794,49,110,7800,1931.18
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,devolucao_menos_10pct_km,-6623.06,867,783,35,49,7800,2096.11
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,retiradas_30min_antes,-6117.59,867,784,36,47,7800,1931.19
+Z20,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""igual"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,semanas_reordenadas,-10593.07,867,748,52,67,7800,2058.14
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,publico,-7783.32,867,784,28,55,7800,1934.64
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,continuacao,-5285.97,867,784,40,43,7800,1931.95
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_5pct,-10513.69,910,793,47,70,7800,1969.38
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,demanda_mais_10pct,-18292.16,953,789,55,109,7800,1934.31
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,devolucao_menos_10pct_km,-5985.08,867,781,40,46,7800,2040.16
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,retiradas_30min_antes,-6310.55,867,786,33,48,7800,1929.11
+Z21,"{""ac_7"": 2, ""dc_60x2"": 1}","{""divisao"": ""prioridade"", ""evitar_ponta"": false, ""prioridade"": ""menor_soc""}",b3_75,semanas_reordenadas,-10817.2,867,745,54,68,7800,2048.4

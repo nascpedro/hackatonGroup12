@@ -1,0 +1,5942 @@
+[
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 861,
+      "upgrades": 217,
+      "nao_atendidos": 152,
+      "pico_kw": 67.50000000000016,
+      "energia_kwh": 18674.276834378743,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 87.64227642276423,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          861,
+          15,
+          12915
+        ],
+        [
+          "upgrade",
+          217,
+          8,
+          1736
+        ],
+        [
+          "nao_atendido",
+          152,
+          -200,
+          -30400
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -26499.0
+    },
+    "nota": -26499.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 958,
+      "upgrades": 174,
+      "nao_atendidos": 98,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 19424.112511936175,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 92.03252032520325,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          958,
+          15,
+          14370
+        ],
+        [
+          "upgrade",
+          174,
+          8,
+          1392
+        ],
+        [
+          "nao_atendido",
+          98,
+          -200,
+          -19600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -14588.0
+    },
+    "nota": -14588.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 861,
+      "upgrades": 217,
+      "nao_atendidos": 152,
+      "pico_kw": 67.50000000000016,
+      "energia_kwh": 18674.276834378743,
+      "energia_ponta_kwh": 2099.71105788085,
+      "atendimento_pct": 87.64227642276423,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          861,
+          15,
+          12915
+        ],
+        [
+          "upgrade",
+          217,
+          8,
+          1736
+        ],
+        [
+          "nao_atendido",
+          152,
+          -200,
+          -30400
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2099.71105788085,
+          -0.5,
+          -1049.855528940425
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -27548.855528940425
+    },
+    "nota": -27548.855528940425,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 958,
+      "upgrades": 174,
+      "nao_atendidos": 98,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 19424.112511936175,
+      "energia_ponta_kwh": 2429.3287111064146,
+      "atendimento_pct": 92.03252032520325,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          958,
+          15,
+          14370
+        ],
+        [
+          "upgrade",
+          174,
+          8,
+          1392
+        ],
+        [
+          "nao_atendido",
+          98,
+          -200,
+          -19600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2429.3287111064146,
+          -0.5,
+          -1214.6643555532073
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -15802.664355553206
+    },
+    "nota": -15802.664355553206,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 992,
+      "upgrades": 95,
+      "nao_atendidos": 143,
+      "pico_kw": 67.50000000000004,
+      "energia_kwh": 18902.01817174741,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 88.3739837398374,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          992,
+          15,
+          14880
+        ],
+        [
+          "upgrade",
+          95,
+          8,
+          760
+        ],
+        [
+          "nao_atendido",
+          143,
+          -200,
+          -28600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -23710.0
+    },
+    "nota": -23710.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1041,
+      "upgrades": 66,
+      "nao_atendidos": 123,
+      "pico_kw": 67.49999999999997,
+      "energia_kwh": 19091.695750650964,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 90.0,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1041,
+          15,
+          15615
+        ],
+        [
+          "upgrade",
+          66,
+          8,
+          528
+        ],
+        [
+          "nao_atendido",
+          123,
+          -200,
+          -24600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -19207.0
+    },
+    "nota": -19207.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 992,
+      "upgrades": 95,
+      "nao_atendidos": 143,
+      "pico_kw": 67.50000000000004,
+      "energia_kwh": 18902.01817174741,
+      "energia_ponta_kwh": 2318.4482014477117,
+      "atendimento_pct": 88.3739837398374,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          992,
+          15,
+          14880
+        ],
+        [
+          "upgrade",
+          95,
+          8,
+          760
+        ],
+        [
+          "nao_atendido",
+          143,
+          -200,
+          -28600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2318.4482014477117,
+          -0.5,
+          -1159.2241007238558
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -24869.224100723855
+    },
+    "nota": -24869.224100723855,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1041,
+      "upgrades": 66,
+      "nao_atendidos": 123,
+      "pico_kw": 67.49999999999997,
+      "energia_kwh": 19091.695750650964,
+      "energia_ponta_kwh": 2262.5211710622098,
+      "atendimento_pct": 90.0,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1041,
+          15,
+          15615
+        ],
+        [
+          "upgrade",
+          66,
+          8,
+          528
+        ],
+        [
+          "nao_atendido",
+          123,
+          -200,
+          -24600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2262.5211710622098,
+          -0.5,
+          -1131.2605855311049
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -20338.260585531105
+    },
+    "nota": -20338.260585531105,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 942,
+      "upgrades": 66,
+      "nao_atendidos": 222,
+      "pico_kw": 67.50000000000001,
+      "energia_kwh": 18463.789408363362,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 81.95121951219512,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          942,
+          15,
+          14130
+        ],
+        [
+          "upgrade",
+          66,
+          8,
+          528
+        ],
+        [
+          "nao_atendido",
+          222,
+          -200,
+          -44400
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -40492.0
+    },
+    "nota": -40492.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 896,
+      "upgrades": 81,
+      "nao_atendidos": 253,
+      "pico_kw": 67.50000000000013,
+      "energia_kwh": 18006.783049301797,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 79.4308943089431,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          896,
+          15,
+          13440
+        ],
+        [
+          "upgrade",
+          81,
+          8,
+          648
+        ],
+        [
+          "nao_atendido",
+          253,
+          -200,
+          -50600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -47262.0
+    },
+    "nota": -47262.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 942,
+      "upgrades": 66,
+      "nao_atendidos": 222,
+      "pico_kw": 67.50000000000001,
+      "energia_kwh": 18463.789408363362,
+      "energia_ponta_kwh": 1937.259051246895,
+      "atendimento_pct": 81.95121951219512,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          942,
+          15,
+          14130
+        ],
+        [
+          "upgrade",
+          66,
+          8,
+          528
+        ],
+        [
+          "nao_atendido",
+          222,
+          -200,
+          -44400
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1937.259051246895,
+          -0.5,
+          -968.6295256234475
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -41460.629525623444
+    },
+    "nota": -41460.629525623444,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 896,
+      "upgrades": 81,
+      "nao_atendidos": 253,
+      "pico_kw": 67.50000000000013,
+      "energia_kwh": 18006.783049301797,
+      "energia_ponta_kwh": 1644.3045793638196,
+      "atendimento_pct": 79.4308943089431,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10750
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          896,
+          15,
+          13440
+        ],
+        [
+          "upgrade",
+          81,
+          8,
+          648
+        ],
+        [
+          "nao_atendido",
+          253,
+          -200,
+          -50600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1644.3045793638196,
+          -0.5,
+          -822.1522896819098
+        ],
+        [
+          "infraestrutura",
+          10750,
+          -1,
+          -10750
+        ]
+      ],
+      "nota": -48084.15228968191
+    },
+    "nota": -48084.15228968191,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 5000,
+      "total": 10750
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 844,
+      "upgrades": 228,
+      "nao_atendidos": 158,
+      "pico_kw": 67.49999999999996,
+      "energia_kwh": 18583.903039361798,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 87.15447154471545,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          844,
+          15,
+          12660
+        ],
+        [
+          "upgrade",
+          228,
+          8,
+          1824
+        ],
+        [
+          "nao_atendido",
+          158,
+          -200,
+          -31600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -27616.0
+    },
+    "nota": -27616.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 918,
+      "upgrades": 184,
+      "nao_atendidos": 128,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18864.43958787996,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 89.59349593495935,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          918,
+          15,
+          13770
+        ],
+        [
+          "upgrade",
+          184,
+          8,
+          1472
+        ],
+        [
+          "nao_atendido",
+          128,
+          -200,
+          -25600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -20858.0
+    },
+    "nota": -20858.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 844,
+      "upgrades": 228,
+      "nao_atendidos": 158,
+      "pico_kw": 67.49999999999996,
+      "energia_kwh": 18583.903039361798,
+      "energia_ponta_kwh": 1957.5354909722396,
+      "atendimento_pct": 87.15447154471545,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          844,
+          15,
+          12660
+        ],
+        [
+          "upgrade",
+          228,
+          8,
+          1824
+        ],
+        [
+          "nao_atendido",
+          158,
+          -200,
+          -31600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1957.5354909722396,
+          -0.5,
+          -978.7677454861198
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -28594.76774548612
+    },
+    "nota": -28594.76774548612,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 918,
+      "upgrades": 184,
+      "nao_atendidos": 128,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18864.43958787996,
+      "energia_ponta_kwh": 2029.484389745676,
+      "atendimento_pct": 89.59349593495935,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          918,
+          15,
+          13770
+        ],
+        [
+          "upgrade",
+          184,
+          8,
+          1472
+        ],
+        [
+          "nao_atendido",
+          128,
+          -200,
+          -25600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2029.484389745676,
+          -0.5,
+          -1014.742194872838
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -21872.742194872837
+    },
+    "nota": -21872.742194872837,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 972,
+      "upgrades": 93,
+      "nao_atendidos": 165,
+      "pico_kw": 67.49999999999999,
+      "energia_kwh": 18420.480032470405,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 86.58536585365853,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          972,
+          15,
+          14580
+        ],
+        [
+          "upgrade",
+          93,
+          8,
+          744
+        ],
+        [
+          "nao_atendido",
+          165,
+          -200,
+          -33000
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -28176.0
+    },
+    "nota": -28176.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 995,
+      "upgrades": 91,
+      "nao_atendidos": 144,
+      "pico_kw": 67.49999999999997,
+      "energia_kwh": 18652.64189566631,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 88.29268292682927,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          995,
+          15,
+          14925
+        ],
+        [
+          "upgrade",
+          91,
+          8,
+          728
+        ],
+        [
+          "nao_atendido",
+          144,
+          -200,
+          -28800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -23647.0
+    },
+    "nota": -23647.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 972,
+      "upgrades": 93,
+      "nao_atendidos": 165,
+      "pico_kw": 67.49999999999999,
+      "energia_kwh": 18420.480032470405,
+      "energia_ponta_kwh": 1893.444505344434,
+      "atendimento_pct": 86.58536585365853,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          972,
+          15,
+          14580
+        ],
+        [
+          "upgrade",
+          93,
+          8,
+          744
+        ],
+        [
+          "nao_atendido",
+          165,
+          -200,
+          -33000
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1893.444505344434,
+          -0.5,
+          -946.722252672217
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -29122.722252672218
+    },
+    "nota": -29122.722252672218,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 995,
+      "upgrades": 91,
+      "nao_atendidos": 144,
+      "pico_kw": 67.49999999999997,
+      "energia_kwh": 18652.64189566631,
+      "energia_ponta_kwh": 1990.9183435748553,
+      "atendimento_pct": 88.29268292682927,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          995,
+          15,
+          14925
+        ],
+        [
+          "upgrade",
+          91,
+          8,
+          728
+        ],
+        [
+          "nao_atendido",
+          144,
+          -200,
+          -28800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1990.9183435748553,
+          -0.5,
+          -995.4591717874276
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -24642.45917178743
+    },
+    "nota": -24642.45917178743,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 927,
+      "upgrades": 70,
+      "nao_atendidos": 233,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18253.62083444671,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 81.0569105691057,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          927,
+          15,
+          13905
+        ],
+        [
+          "upgrade",
+          70,
+          8,
+          560
+        ],
+        [
+          "nao_atendido",
+          233,
+          -200,
+          -46600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -42635.0
+    },
+    "nota": -42635.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 899,
+      "upgrades": 77,
+      "nao_atendidos": 254,
+      "pico_kw": 67.50000000000013,
+      "energia_kwh": 17849.533189746446,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 79.34959349593495,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          899,
+          15,
+          13485
+        ],
+        [
+          "upgrade",
+          77,
+          8,
+          616
+        ],
+        [
+          "nao_atendido",
+          254,
+          -200,
+          -50800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -47199.0
+    },
+    "nota": -47199.0,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 927,
+      "upgrades": 70,
+      "nao_atendidos": 233,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18253.62083444671,
+      "energia_ponta_kwh": 1754.9506613585604,
+      "atendimento_pct": 81.0569105691057,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          927,
+          15,
+          13905
+        ],
+        [
+          "upgrade",
+          70,
+          8,
+          560
+        ],
+        [
+          "nao_atendido",
+          233,
+          -200,
+          -46600
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1754.9506613585604,
+          -0.5,
+          -877.4753306792802
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -43512.47533067928
+    },
+    "nota": -43512.47533067928,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 899,
+      "upgrades": 77,
+      "nao_atendidos": 254,
+      "pico_kw": 67.50000000000013,
+      "energia_kwh": 17849.533189746446,
+      "energia_ponta_kwh": 1450.7514944320992,
+      "atendimento_pct": 79.34959349593495,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 10500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          899,
+          15,
+          13485
+        ],
+        [
+          "upgrade",
+          77,
+          8,
+          616
+        ],
+        [
+          "nao_atendido",
+          254,
+          -200,
+          -50800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1450.7514944320992,
+          -0.5,
+          -725.3757472160496
+        ],
+        [
+          "infraestrutura",
+          10500,
+          -1,
+          -10500
+        ]
+      ],
+      "nota": -47924.37574721605
+    },
+    "nota": -47924.37574721605,
+    "custo_infra": {
+      "carregadores": 5500,
+      "entrada": 5000,
+      "total": 10500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 845,
+      "upgrades": 226,
+      "nao_atendidos": 159,
+      "pico_kw": 67.50000000000011,
+      "energia_kwh": 18489.91123266623,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 87.07317073170732,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          845,
+          15,
+          12675
+        ],
+        [
+          "upgrade",
+          226,
+          8,
+          1808
+        ],
+        [
+          "nao_atendido",
+          159,
+          -200,
+          -31800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -24817.0
+    },
+    "nota": -24817.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 876,
+      "upgrades": 213,
+      "nao_atendidos": 141,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 18836.387187709428,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 88.53658536585365,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          876,
+          15,
+          13140
+        ],
+        [
+          "upgrade",
+          213,
+          8,
+          1704
+        ],
+        [
+          "nao_atendido",
+          141,
+          -200,
+          -28200
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -20856.0
+    },
+    "nota": -20856.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 845,
+      "upgrades": 226,
+      "nao_atendidos": 159,
+      "pico_kw": 67.50000000000011,
+      "energia_kwh": 18489.91123266623,
+      "energia_ponta_kwh": 1999.1672163272642,
+      "atendimento_pct": 87.07317073170732,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          845,
+          15,
+          12675
+        ],
+        [
+          "upgrade",
+          226,
+          8,
+          1808
+        ],
+        [
+          "nao_atendido",
+          159,
+          -200,
+          -31800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1999.1672163272642,
+          -0.5,
+          -999.5836081636321
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -25816.583608163633
+    },
+    "nota": -25816.583608163633,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 876,
+      "upgrades": 213,
+      "nao_atendidos": 141,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 18836.387187709428,
+      "energia_ponta_kwh": 2183.428696360263,
+      "atendimento_pct": 88.53658536585365,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          876,
+          15,
+          13140
+        ],
+        [
+          "upgrade",
+          213,
+          8,
+          1704
+        ],
+        [
+          "nao_atendido",
+          141,
+          -200,
+          -28200
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2183.428696360263,
+          -0.5,
+          -1091.7143481801315
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -21947.714348180132
+    },
+    "nota": -21947.714348180132,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 991,
+      "upgrades": 93,
+      "nao_atendidos": 146,
+      "pico_kw": 67.50000000000009,
+      "energia_kwh": 18820.638566221198,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 88.130081300813,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          991,
+          15,
+          14865
+        ],
+        [
+          "upgrade",
+          93,
+          8,
+          744
+        ],
+        [
+          "nao_atendido",
+          146,
+          -200,
+          -29200
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -21091.0
+    },
+    "nota": -21091.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1031,
+      "upgrades": 74,
+      "nao_atendidos": 125,
+      "pico_kw": 67.49999999999999,
+      "energia_kwh": 19098.003146559313,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 89.83739837398375,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1031,
+          15,
+          15465
+        ],
+        [
+          "upgrade",
+          74,
+          8,
+          592
+        ],
+        [
+          "nao_atendido",
+          125,
+          -200,
+          -25000
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -16443.0
+    },
+    "nota": -16443.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 991,
+      "upgrades": 93,
+      "nao_atendidos": 146,
+      "pico_kw": 67.50000000000009,
+      "energia_kwh": 18820.638566221198,
+      "energia_ponta_kwh": 2245.553894503075,
+      "atendimento_pct": 88.130081300813,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          991,
+          15,
+          14865
+        ],
+        [
+          "upgrade",
+          93,
+          8,
+          744
+        ],
+        [
+          "nao_atendido",
+          146,
+          -200,
+          -29200
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2245.553894503075,
+          -0.5,
+          -1122.7769472515374
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -22213.776947251536
+    },
+    "nota": -22213.776947251536,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1031,
+      "upgrades": 74,
+      "nao_atendidos": 125,
+      "pico_kw": 67.49999999999999,
+      "energia_kwh": 19098.003146559313,
+      "energia_ponta_kwh": 2395.808662081702,
+      "atendimento_pct": 89.83739837398375,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1031,
+          15,
+          15465
+        ],
+        [
+          "upgrade",
+          74,
+          8,
+          592
+        ],
+        [
+          "nao_atendido",
+          125,
+          -200,
+          -25000
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          2395.808662081702,
+          -0.5,
+          -1197.904331040851
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -17640.904331040852
+    },
+    "nota": -17640.904331040852,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 933,
+      "upgrades": 63,
+      "nao_atendidos": 234,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18301.91992646584,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 80.97560975609755,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          933,
+          15,
+          13995
+        ],
+        [
+          "upgrade",
+          63,
+          8,
+          504
+        ],
+        [
+          "nao_atendido",
+          234,
+          -200,
+          -46800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -39801.0
+    },
+    "nota": -39801.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 917,
+      "upgrades": 74,
+      "nao_atendidos": 239,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 18221.656545588554,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 80.5691056910569,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          917,
+          15,
+          13755
+        ],
+        [
+          "upgrade",
+          74,
+          8,
+          592
+        ],
+        [
+          "nao_atendido",
+          239,
+          -200,
+          -47800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -40953.0
+    },
+    "nota": -40953.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 933,
+      "upgrades": 63,
+      "nao_atendidos": 234,
+      "pico_kw": 67.50000000000003,
+      "energia_kwh": 18301.91992646584,
+      "energia_ponta_kwh": 1950.6778044964933,
+      "atendimento_pct": 80.97560975609755,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          933,
+          15,
+          13995
+        ],
+        [
+          "upgrade",
+          63,
+          8,
+          504
+        ],
+        [
+          "nao_atendido",
+          234,
+          -200,
+          -46800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1950.6778044964933,
+          -0.5,
+          -975.3389022482467
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -40776.338902248244
+    },
+    "nota": -40776.338902248244,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 917,
+      "upgrades": 74,
+      "nao_atendidos": 239,
+      "pico_kw": 67.50000000000006,
+      "energia_kwh": 18221.656545588554,
+      "energia_ponta_kwh": 1952.481261136539,
+      "atendimento_pct": 80.5691056910569,
+      "demanda_contratada_kw": 0.0,
+      "custo_infra": 7500
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          917,
+          15,
+          13755
+        ],
+        [
+          "upgrade",
+          74,
+          8,
+          592
+        ],
+        [
+          "nao_atendido",
+          239,
+          -200,
+          -47800
+        ],
+        [
+          "demanda_contratada",
+          0.0,
+          -2,
+          -0.0
+        ],
+        [
+          "energia_ponta_kwh",
+          1952.481261136539,
+          -0.5,
+          -976.2406305682695
+        ],
+        [
+          "infraestrutura",
+          7500,
+          -1,
+          -7500
+        ]
+      ],
+      "nota": -41929.24063056827
+    },
+    "nota": -41929.24063056827,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 5000,
+      "total": 7500
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 893,
+      "upgrades": 211,
+      "nao_atendidos": 126,
+      "pico_kw": 70.00000000000001,
+      "energia_kwh": 19270.018593217315,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 89.7560975609756,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          893,
+          15,
+          13395
+        ],
+        [
+          "upgrade",
+          211,
+          8,
+          1688
+        ],
+        [
+          "nao_atendido",
+          126,
+          -200,
+          -25200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -19377.0
+    },
+    "nota": -19377.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 893,
+      "upgrades": 211,
+      "nao_atendidos": 126,
+      "pico_kw": 70.00000000000001,
+      "energia_kwh": 19270.018593217315,
+      "energia_ponta_kwh": 2118.034562872705,
+      "atendimento_pct": 89.7560975609756,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          893,
+          15,
+          13395
+        ],
+        [
+          "upgrade",
+          211,
+          8,
+          1688
+        ],
+        [
+          "nao_atendido",
+          126,
+          -200,
+          -25200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2118.034562872705,
+          -0.5,
+          -1059.0172814363525
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -20436.017281436354
+    },
+    "nota": -20436.017281436354,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1046,
+      "upgrades": 79,
+      "nao_atendidos": 105,
+      "pico_kw": 69.65881047782663,
+      "energia_kwh": 19372.06864649369,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 91.46341463414635,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1046,
+          15,
+          15690
+        ],
+        [
+          "upgrade",
+          79,
+          8,
+          632
+        ],
+        [
+          "nao_atendido",
+          105,
+          -200,
+          -21000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -13938.0
+    },
+    "nota": -13938.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1046,
+      "upgrades": 79,
+      "nao_atendidos": 105,
+      "pico_kw": 69.65881047782663,
+      "energia_kwh": 19372.06864649369,
+      "energia_ponta_kwh": 2223.5308692711064,
+      "atendimento_pct": 91.46341463414635,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1046,
+          15,
+          15690
+        ],
+        [
+          "upgrade",
+          79,
+          8,
+          632
+        ],
+        [
+          "nao_atendido",
+          105,
+          -200,
+          -21000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2223.5308692711064,
+          -0.5,
+          -1111.7654346355532
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -15049.765434635552
+    },
+    "nota": -15049.765434635552,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 963,
+      "upgrades": 61,
+      "nao_atendidos": 206,
+      "pico_kw": 69.77341991341714,
+      "energia_kwh": 18710.790439928853,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 83.2520325203252,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          963,
+          15,
+          14445
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          206,
+          -200,
+          -41200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -35527.0
+    },
+    "nota": -35527.0,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 963,
+      "upgrades": 61,
+      "nao_atendidos": 206,
+      "pico_kw": 69.77341991341714,
+      "energia_kwh": 18710.790439928853,
+      "energia_ponta_kwh": 1891.8879448303762,
+      "atendimento_pct": 83.2520325203252,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          963,
+          15,
+          14445
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          206,
+          -200,
+          -41200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1891.8879448303762,
+          -0.5,
+          -945.9439724151881
+        ],
+        [
+          "infraestrutura",
+          9000,
+          -1,
+          -9000
+        ]
+      ],
+      "nota": -36472.94397241519
+    },
+    "nota": -36472.94397241519,
+    "custo_infra": {
+      "carregadores": 2500,
+      "entrada": 6500,
+      "total": 9000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 940,
+      "upgrades": 188,
+      "nao_atendidos": 102,
+      "pico_kw": 73.9999999999997,
+      "energia_kwh": 19534.465569502525,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 91.70731707317073,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          940,
+          15,
+          14100
+        ],
+        [
+          "upgrade",
+          188,
+          8,
+          1504
+        ],
+        [
+          "nao_atendido",
+          102,
+          -200,
+          -20400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -14906.0
+    },
+    "nota": -14906.0,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 940,
+      "upgrades": 188,
+      "nao_atendidos": 102,
+      "pico_kw": 73.9999999999997,
+      "energia_kwh": 19534.465569502525,
+      "energia_ponta_kwh": 2152.5204859032337,
+      "atendimento_pct": 91.70731707317073,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          940,
+          15,
+          14100
+        ],
+        [
+          "upgrade",
+          188,
+          8,
+          1504
+        ],
+        [
+          "nao_atendido",
+          102,
+          -200,
+          -20400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2152.5204859032337,
+          -0.5,
+          -1076.2602429516169
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -15982.260242951617
+    },
+    "nota": -15982.260242951617,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1044,
+      "upgrades": 76,
+      "nao_atendidos": 110,
+      "pico_kw": 73.59999999999955,
+      "energia_kwh": 19363.13689015494,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 91.0569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1044,
+          15,
+          15660
+        ],
+        [
+          "upgrade",
+          76,
+          8,
+          608
+        ],
+        [
+          "nao_atendido",
+          110,
+          -200,
+          -22000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -15842.0
+    },
+    "nota": -15842.0,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1044,
+      "upgrades": 76,
+      "nao_atendidos": 110,
+      "pico_kw": 73.59999999999955,
+      "energia_kwh": 19363.13689015494,
+      "energia_ponta_kwh": 2093.873154501685,
+      "atendimento_pct": 91.0569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1044,
+          15,
+          15660
+        ],
+        [
+          "upgrade",
+          76,
+          8,
+          608
+        ],
+        [
+          "nao_atendido",
+          110,
+          -200,
+          -22000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2093.873154501685,
+          -0.5,
+          -1046.9365772508424
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -16888.936577250843
+    },
+    "nota": -16888.936577250843,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1003,
+      "upgrades": 50,
+      "nao_atendidos": 177,
+      "pico_kw": 73.99999999999824,
+      "energia_kwh": 18938.238935028203,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 85.60975609756098,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1003,
+          15,
+          15045
+        ],
+        [
+          "upgrade",
+          50,
+          8,
+          400
+        ],
+        [
+          "nao_atendido",
+          177,
+          -200,
+          -35400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -30065.0
+    },
+    "nota": -30065.0,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1003,
+      "upgrades": 50,
+      "nao_atendidos": 177,
+      "pico_kw": 73.99999999999824,
+      "energia_kwh": 18938.238935028203,
+      "energia_ponta_kwh": 1868.3389101595615,
+      "atendimento_pct": 85.60975609756098,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 9850
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1003,
+          15,
+          15045
+        ],
+        [
+          "upgrade",
+          50,
+          8,
+          400
+        ],
+        [
+          "nao_atendido",
+          177,
+          -200,
+          -35400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1868.3389101595615,
+          -0.5,
+          -934.1694550797807
+        ],
+        [
+          "infraestrutura",
+          9850,
+          -1,
+          -9850
+        ]
+      ],
+      "nota": -30999.16945507978
+    },
+    "nota": -30999.16945507978,
+    "custo_infra": {
+      "carregadores": 3350,
+      "entrada": 6500,
+      "total": 9850
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 974,
+      "upgrades": 167,
+      "nao_atendidos": 89,
+      "pico_kw": 77.99999999999977,
+      "energia_kwh": 19824.470145997868,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 92.76422764227642,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          974,
+          15,
+          14610
+        ],
+        [
+          "upgrade",
+          167,
+          8,
+          1336
+        ],
+        [
+          "nao_atendido",
+          89,
+          -200,
+          -17800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -12814.0
+    },
+    "nota": -12814.0,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 974,
+      "upgrades": 167,
+      "nao_atendidos": 89,
+      "pico_kw": 77.99999999999977,
+      "energia_kwh": 19824.470145997868,
+      "energia_ponta_kwh": 2258.842149318212,
+      "atendimento_pct": 92.76422764227642,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          974,
+          15,
+          14610
+        ],
+        [
+          "upgrade",
+          167,
+          8,
+          1336
+        ],
+        [
+          "nao_atendido",
+          89,
+          -200,
+          -17800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2258.842149318212,
+          -0.5,
+          -1129.421074659106
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -13943.421074659105
+    },
+    "nota": -13943.421074659105,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1068,
+      "upgrades": 67,
+      "nao_atendidos": 95,
+      "pico_kw": 77.19999999999904,
+      "energia_kwh": 19703.967747671086,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 92.27642276422765,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1068,
+          15,
+          16020
+        ],
+        [
+          "upgrade",
+          67,
+          8,
+          536
+        ],
+        [
+          "nao_atendido",
+          95,
+          -200,
+          -19000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -13404.0
+    },
+    "nota": -13404.0,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1068,
+      "upgrades": 67,
+      "nao_atendidos": 95,
+      "pico_kw": 77.19999999999904,
+      "energia_kwh": 19703.967747671086,
+      "energia_ponta_kwh": 2120.922449237474,
+      "atendimento_pct": 92.27642276422765,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1068,
+          15,
+          16020
+        ],
+        [
+          "upgrade",
+          67,
+          8,
+          536
+        ],
+        [
+          "nao_atendido",
+          95,
+          -200,
+          -19000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2120.922449237474,
+          -0.5,
+          -1060.461224618737
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -14464.461224618737
+    },
+    "nota": -14464.461224618737,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 977,
+      "upgrades": 61,
+      "nao_atendidos": 192,
+      "pico_kw": 77.1999999999994,
+      "energia_kwh": 19006.096464524268,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 84.39024390243902,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          977,
+          15,
+          14655
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          192,
+          -200,
+          -38400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -34217.0
+    },
+    "nota": -34217.0,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 977,
+      "upgrades": 61,
+      "nao_atendidos": 192,
+      "pico_kw": 77.1999999999994,
+      "energia_kwh": 19006.096464524268,
+      "energia_ponta_kwh": 1833.4514962036822,
+      "atendimento_pct": 84.39024390243902,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10700
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          977,
+          15,
+          14655
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          192,
+          -200,
+          -38400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1833.4514962036822,
+          -0.5,
+          -916.7257481018411
+        ],
+        [
+          "infraestrutura",
+          10700,
+          -1,
+          -10700
+        ]
+      ],
+      "nota": -35133.725748101846
+    },
+    "nota": -35133.725748101846,
+    "custo_infra": {
+      "carregadores": 4200,
+      "entrada": 6500,
+      "total": 10700
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 974,
+      "upgrades": 167,
+      "nao_atendidos": 89,
+      "pico_kw": 77.99999999999977,
+      "energia_kwh": 19824.470145997868,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 92.76422764227642,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          974,
+          15,
+          14610
+        ],
+        [
+          "upgrade",
+          167,
+          8,
+          1336
+        ],
+        [
+          "nao_atendido",
+          89,
+          -200,
+          -17800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -12114.0
+    },
+    "nota": -12114.0,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 974,
+      "upgrades": 167,
+      "nao_atendidos": 89,
+      "pico_kw": 77.99999999999977,
+      "energia_kwh": 19824.470145997868,
+      "energia_ponta_kwh": 2258.842149318212,
+      "atendimento_pct": 92.76422764227642,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          974,
+          15,
+          14610
+        ],
+        [
+          "upgrade",
+          167,
+          8,
+          1336
+        ],
+        [
+          "nao_atendido",
+          89,
+          -200,
+          -17800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2258.842149318212,
+          -0.5,
+          -1129.421074659106
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -13243.421074659105
+    },
+    "nota": -13243.421074659105,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1068,
+      "upgrades": 67,
+      "nao_atendidos": 95,
+      "pico_kw": 77.19999999999904,
+      "energia_kwh": 19703.967747671086,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 92.27642276422765,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1068,
+          15,
+          16020
+        ],
+        [
+          "upgrade",
+          67,
+          8,
+          536
+        ],
+        [
+          "nao_atendido",
+          95,
+          -200,
+          -19000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -12704.0
+    },
+    "nota": -12704.0,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1068,
+      "upgrades": 67,
+      "nao_atendidos": 95,
+      "pico_kw": 77.19999999999904,
+      "energia_kwh": 19703.967747671086,
+      "energia_ponta_kwh": 2120.922449237474,
+      "atendimento_pct": 92.27642276422765,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1068,
+          15,
+          16020
+        ],
+        [
+          "upgrade",
+          67,
+          8,
+          536
+        ],
+        [
+          "nao_atendido",
+          95,
+          -200,
+          -19000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2120.922449237474,
+          -0.5,
+          -1060.461224618737
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -13764.461224618737
+    },
+    "nota": -13764.461224618737,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 977,
+      "upgrades": 61,
+      "nao_atendidos": 192,
+      "pico_kw": 77.1999999999994,
+      "energia_kwh": 19006.096464524268,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 84.39024390243902,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          977,
+          15,
+          14655
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          192,
+          -200,
+          -38400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -33517.0
+    },
+    "nota": -33517.0,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 977,
+      "upgrades": 61,
+      "nao_atendidos": 192,
+      "pico_kw": 77.1999999999994,
+      "energia_kwh": 19006.096464524268,
+      "energia_ponta_kwh": 1833.4514962036822,
+      "atendimento_pct": 84.39024390243902,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 10000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          977,
+          15,
+          14655
+        ],
+        [
+          "upgrade",
+          61,
+          8,
+          488
+        ],
+        [
+          "nao_atendido",
+          192,
+          -200,
+          -38400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1833.4514962036822,
+          -0.5,
+          -916.7257481018411
+        ],
+        [
+          "infraestrutura",
+          10000,
+          -1,
+          -10000
+        ]
+      ],
+      "nota": -34433.725748101846
+    },
+    "nota": -34433.725748101846,
+    "custo_infra": {
+      "carregadores": 3500,
+      "entrada": 6500,
+      "total": 10000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 981,
+      "upgrades": 169,
+      "nao_atendidos": 80,
+      "pico_kw": 81.99999999999942,
+      "energia_kwh": 19952.299577506135,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 93.4959349593496,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          981,
+          15,
+          14715
+        ],
+        [
+          "upgrade",
+          169,
+          8,
+          1352
+        ],
+        [
+          "nao_atendido",
+          80,
+          -200,
+          -16000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -11193.0
+    },
+    "nota": -11193.0,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 981,
+      "upgrades": 169,
+      "nao_atendidos": 80,
+      "pico_kw": 81.99999999999942,
+      "energia_kwh": 19952.299577506135,
+      "energia_ponta_kwh": 2110.2296026843837,
+      "atendimento_pct": 93.4959349593496,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          981,
+          15,
+          14715
+        ],
+        [
+          "upgrade",
+          169,
+          8,
+          1352
+        ],
+        [
+          "nao_atendido",
+          80,
+          -200,
+          -16000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2110.2296026843837,
+          -0.5,
+          -1055.1148013421919
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -12248.114801342192
+    },
+    "nota": -12248.114801342192,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1102,
+      "upgrades": 57,
+      "nao_atendidos": 71,
+      "pico_kw": 83.08138706491663,
+      "energia_kwh": 20076.51215471615,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 94.22764227642277,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1102,
+          15,
+          16530
+        ],
+        [
+          "upgrade",
+          57,
+          8,
+          456
+        ],
+        [
+          "nao_atendido",
+          71,
+          -200,
+          -14200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -8474.0
+    },
+    "nota": -8474.0,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1102,
+      "upgrades": 57,
+      "nao_atendidos": 71,
+      "pico_kw": 83.08138706491663,
+      "energia_kwh": 20076.51215471615,
+      "energia_ponta_kwh": 2117.743097735534,
+      "atendimento_pct": 94.22764227642277,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1102,
+          15,
+          16530
+        ],
+        [
+          "upgrade",
+          57,
+          8,
+          456
+        ],
+        [
+          "nao_atendido",
+          71,
+          -200,
+          -14200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          2117.743097735534,
+          -0.5,
+          -1058.871548867767
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -9532.871548867766
+    },
+    "nota": -9532.871548867766,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1003,
+      "upgrades": 56,
+      "nao_atendidos": 171,
+      "pico_kw": 80.79999999999932,
+      "energia_kwh": 19224.708504672504,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 86.09756097560975,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1003,
+          15,
+          15045
+        ],
+        [
+          "upgrade",
+          56,
+          8,
+          448
+        ],
+        [
+          "nao_atendido",
+          171,
+          -200,
+          -34200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -29967.0
+    },
+    "nota": -29967.0,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1003,
+      "upgrades": 56,
+      "nao_atendidos": 171,
+      "pico_kw": 80.79999999999932,
+      "energia_kwh": 19224.708504672504,
+      "energia_ponta_kwh": 1919.0971202021408,
+      "atendimento_pct": 86.09756097560975,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 11000
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1003,
+          15,
+          15045
+        ],
+        [
+          "upgrade",
+          56,
+          8,
+          448
+        ],
+        [
+          "nao_atendido",
+          171,
+          -200,
+          -34200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1919.0971202021408,
+          -0.5,
+          -959.5485601010704
+        ],
+        [
+          "infraestrutura",
+          11000,
+          -1,
+          -11000
+        ]
+      ],
+      "nota": -30926.54856010107
+    },
+    "nota": -30926.54856010107,
+    "custo_infra": {
+      "carregadores": 4500,
+      "entrada": 6500,
+      "total": 11000
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1209,
+      "upgrades": 21,
+      "nao_atendidos": 0,
+      "pico_kw": 92.99999999999613,
+      "energia_kwh": 21707.98232373475,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1209,
+          15,
+          18135
+        ],
+        [
+          "upgrade",
+          21,
+          8,
+          168
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 5793.0
+    },
+    "nota": 5793.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1210,
+      "upgrades": 19,
+      "nao_atendidos": 1,
+      "pico_kw": 92.99999999999613,
+      "energia_kwh": 21664.276000914397,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 99.91869918699187,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1210,
+          15,
+          18150
+        ],
+        [
+          "upgrade",
+          19,
+          8,
+          152
+        ],
+        [
+          "nao_atendido",
+          1,
+          -200,
+          -200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 5592.0
+    },
+    "nota": 5592.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1209,
+      "upgrades": 21,
+      "nao_atendidos": 0,
+      "pico_kw": 92.99999999999613,
+      "energia_kwh": 21707.98232373475,
+      "energia_ponta_kwh": 1812.7956451865962,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1209,
+          15,
+          18135
+        ],
+        [
+          "upgrade",
+          21,
+          8,
+          168
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1812.7956451865962,
+          -0.5,
+          -906.3978225932981
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 4886.602177406701
+    },
+    "nota": 4886.602177406701,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1210,
+      "upgrades": 19,
+      "nao_atendidos": 1,
+      "pico_kw": 92.99999999999613,
+      "energia_kwh": 21664.276000914397,
+      "energia_ponta_kwh": 1776.361462582369,
+      "atendimento_pct": 99.91869918699187,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1210,
+          15,
+          18150
+        ],
+        [
+          "upgrade",
+          19,
+          8,
+          152
+        ],
+        [
+          "nao_atendido",
+          1,
+          -200,
+          -200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1776.361462582369,
+          -0.5,
+          -888.1807312911845
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 4703.819268708816
+    },
+    "nota": 4703.819268708816,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1196,
+      "upgrades": 16,
+      "nao_atendidos": 18,
+      "pico_kw": 92.99999999999854,
+      "energia_kwh": 21442.904012725132,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 98.53658536585365,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1196,
+          15,
+          17940
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          18,
+          -200,
+          -3600
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 1958.0
+    },
+    "nota": 1958.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1198,
+      "upgrades": 15,
+      "nao_atendidos": 17,
+      "pico_kw": 92.99999999999854,
+      "energia_kwh": 21432.7983094416,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 98.6178861788618,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1198,
+          15,
+          17970
+        ],
+        [
+          "upgrade",
+          15,
+          8,
+          120
+        ],
+        [
+          "nao_atendido",
+          17,
+          -200,
+          -3400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 2180.0
+    },
+    "nota": 2180.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1196,
+      "upgrades": 16,
+      "nao_atendidos": 18,
+      "pico_kw": 92.99999999999854,
+      "energia_kwh": 21442.904012725132,
+      "energia_ponta_kwh": 1674.778696891039,
+      "atendimento_pct": 98.53658536585365,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1196,
+          15,
+          17940
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          18,
+          -200,
+          -3600
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1674.778696891039,
+          -0.5,
+          -837.3893484455195
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 1120.6106515544798
+    },
+    "nota": 1120.6106515544798,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1198,
+      "upgrades": 15,
+      "nao_atendidos": 17,
+      "pico_kw": 92.99999999999854,
+      "energia_kwh": 21432.7983094416,
+      "energia_ponta_kwh": 1694.4493458858294,
+      "atendimento_pct": 98.6178861788618,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1198,
+          15,
+          17970
+        ],
+        [
+          "upgrade",
+          15,
+          8,
+          120
+        ],
+        [
+          "nao_atendido",
+          17,
+          -200,
+          -3400
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1694.4493458858294,
+          -0.5,
+          -847.2246729429147
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": 1332.7753270570847
+    },
+    "nota": 1332.7753270570847,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1158,
+      "upgrades": 18,
+      "nao_atendidos": 54,
+      "pico_kw": 92.99999999999763,
+      "energia_kwh": 20956.288097333854,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 95.60975609756098,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1158,
+          15,
+          17370
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          54,
+          -200,
+          -10800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": -5796.0
+    },
+    "nota": -5796.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1157,
+      "upgrades": 18,
+      "nao_atendidos": 55,
+      "pico_kw": 92.99999999999763,
+      "energia_kwh": 20952.177234725867,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 95.52845528455285,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1157,
+          15,
+          17355
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          55,
+          -200,
+          -11000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": -6011.0
+    },
+    "nota": -6011.0,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1158,
+      "upgrades": 18,
+      "nao_atendidos": 54,
+      "pico_kw": 92.99999999999763,
+      "energia_kwh": 20956.288097333854,
+      "energia_ponta_kwh": 1485.9183082009554,
+      "atendimento_pct": 95.60975609756098,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1158,
+          15,
+          17370
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          54,
+          -200,
+          -10800
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1485.9183082009554,
+          -0.5,
+          -742.9591541004777
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": -6538.9591541004775
+    },
+    "nota": -6538.9591541004775,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1157,
+      "upgrades": 18,
+      "nao_atendidos": 55,
+      "pico_kw": 92.99999999999763,
+      "energia_kwh": 20952.177234725867,
+      "energia_ponta_kwh": 1525.8358636822095,
+      "atendimento_pct": 95.52845528455285,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 12250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1157,
+          15,
+          17355
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          55,
+          -200,
+          -11000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1525.8358636822095,
+          -0.5,
+          -762.9179318411047
+        ],
+        [
+          "infraestrutura",
+          12250,
+          -1,
+          -12250
+        ]
+      ],
+      "nota": -6773.917931841104
+    },
+    "nota": -6773.917931841104,
+    "custo_infra": {
+      "carregadores": 5750,
+      "entrada": 6500,
+      "total": 12250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1214,
+      "upgrades": 16,
+      "nao_atendidos": 0,
+      "pico_kw": 106.46921558441362,
+      "energia_kwh": 21746.49885457113,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1214,
+          15,
+          18210
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 3828.0
+    },
+    "nota": 3828.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1212,
+      "upgrades": 18,
+      "nao_atendidos": 0,
+      "pico_kw": 106.46921558441362,
+      "energia_kwh": 21747.70680195614,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1212,
+          15,
+          18180
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 3814.0
+    },
+    "nota": 3814.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1214,
+      "upgrades": 16,
+      "nao_atendidos": 0,
+      "pico_kw": 106.46921558441362,
+      "energia_kwh": 21746.49885457113,
+      "energia_ponta_kwh": 1698.3703392513644,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1214,
+          15,
+          18210
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1698.3703392513644,
+          -0.5,
+          -849.1851696256822
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 2978.8148303743183
+    },
+    "nota": 2978.8148303743183,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1212,
+      "upgrades": 18,
+      "nao_atendidos": 0,
+      "pico_kw": 106.46921558441362,
+      "energia_kwh": 21747.70680195614,
+      "energia_ponta_kwh": 1655.6481050269567,
+      "atendimento_pct": 100.0,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1212,
+          15,
+          18180
+        ],
+        [
+          "upgrade",
+          18,
+          8,
+          144
+        ],
+        [
+          "nao_atendido",
+          0,
+          -200,
+          0
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1655.6481050269567,
+          -0.5,
+          -827.8240525134784
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 2986.175947486521
+    },
+    "nota": 2986.175947486521,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1212,
+      "upgrades": 7,
+      "nao_atendidos": 11,
+      "pico_kw": 103.79999999999629,
+      "energia_kwh": 21494.425494197472,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 99.10569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1212,
+          15,
+          18180
+        ],
+        [
+          "upgrade",
+          7,
+          8,
+          56
+        ],
+        [
+          "nao_atendido",
+          11,
+          -200,
+          -2200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 1526.0
+    },
+    "nota": 1526.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1213,
+      "upgrades": 6,
+      "nao_atendidos": 11,
+      "pico_kw": 103.79999999999629,
+      "energia_kwh": 21446.380746806808,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 99.10569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1213,
+          15,
+          18195
+        ],
+        [
+          "upgrade",
+          6,
+          8,
+          48
+        ],
+        [
+          "nao_atendido",
+          11,
+          -200,
+          -2200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 1533.0
+    },
+    "nota": 1533.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1212,
+      "upgrades": 7,
+      "nao_atendidos": 11,
+      "pico_kw": 103.79999999999629,
+      "energia_kwh": 21494.425494197472,
+      "energia_ponta_kwh": 1624.0273225693297,
+      "atendimento_pct": 99.10569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1212,
+          15,
+          18180
+        ],
+        [
+          "upgrade",
+          7,
+          8,
+          56
+        ],
+        [
+          "nao_atendido",
+          11,
+          -200,
+          -2200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1624.0273225693297,
+          -0.5,
+          -812.0136612846649
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 713.9863387153346
+    },
+    "nota": 713.9863387153346,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1213,
+      "upgrades": 6,
+      "nao_atendidos": 11,
+      "pico_kw": 103.79999999999629,
+      "energia_kwh": 21446.380746806804,
+      "energia_ponta_kwh": 1605.4234794688089,
+      "atendimento_pct": 99.10569105691057,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1213,
+          15,
+          18195
+        ],
+        [
+          "upgrade",
+          6,
+          8,
+          48
+        ],
+        [
+          "nao_atendido",
+          11,
+          -200,
+          -2200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1605.4234794688089,
+          -0.5,
+          -802.7117397344044
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": 730.2882602655955
+    },
+    "nota": 730.2882602655955,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1164,
+      "upgrades": 16,
+      "nao_atendidos": 50,
+      "pico_kw": 104.19999999998046,
+      "energia_kwh": 21025.10925780938,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 95.9349593495935,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1164,
+          15,
+          17460
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          50,
+          -200,
+          -10000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": -6922.0
+    },
+    "nota": -6922.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1163,
+      "upgrades": 16,
+      "nao_atendidos": 51,
+      "pico_kw": 102.37394597625931,
+      "energia_kwh": 21041.448563151203,
+      "energia_ponta_kwh": 0,
+      "atendimento_pct": 95.85365853658537,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1163,
+          15,
+          17445
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          51,
+          -200,
+          -10200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          0,
+          -0.5,
+          -0.0
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": -7137.0
+    },
+    "nota": -7137.0,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1164,
+      "upgrades": 16,
+      "nao_atendidos": 50,
+      "pico_kw": 104.19999999998046,
+      "energia_kwh": 21025.10925780938,
+      "energia_ponta_kwh": 1425.8536149065242,
+      "atendimento_pct": 95.9349593495935,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1164,
+          15,
+          17460
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          50,
+          -200,
+          -10000
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1425.8536149065242,
+          -0.5,
+          -712.9268074532621
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": -7634.926807453262
+    },
+    "nota": -7634.926807453262,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "periodo": "publico",
+    "valido": true,
+    "erros": [],
+    "violacoes": [],
+    "metricas": {
+      "contratos": 1230,
+      "certos": 1163,
+      "upgrades": 16,
+      "nao_atendidos": 51,
+      "pico_kw": 102.37394597625931,
+      "energia_kwh": 21041.448563151203,
+      "energia_ponta_kwh": 1356.193547331734,
+      "atendimento_pct": 95.85365853658537,
+      "demanda_contratada_kw": 130,
+      "custo_infra": 14250
+    },
+    "pontos": {
+      "itens": [
+        [
+          "certo",
+          1163,
+          15,
+          17445
+        ],
+        [
+          "upgrade",
+          16,
+          8,
+          128
+        ],
+        [
+          "nao_atendido",
+          51,
+          -200,
+          -10200
+        ],
+        [
+          "demanda_contratada",
+          130,
+          -2,
+          -260
+        ],
+        [
+          "energia_ponta_kwh",
+          1356.193547331734,
+          -0.5,
+          -678.096773665867
+        ],
+        [
+          "infraestrutura",
+          14250,
+          -1,
+          -14250
+        ]
+      ],
+      "nota": -7815.096773665867
+    },
+    "nota": -7815.096773665867,
+    "custo_infra": {
+      "carregadores": 7750,
+      "entrada": 6500,
+      "total": 14250
+    }
+  }
+]

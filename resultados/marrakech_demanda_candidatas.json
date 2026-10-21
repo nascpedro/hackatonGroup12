@@ -1,0 +1,606 @@
+[
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 7
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 8
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 80,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 90,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 100,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 110,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 9
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 120,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "prioridade"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_11": 1,
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Marrakech",
+    "carregadores": {
+      "dc_30": 1,
+      "ac_11": 1,
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 130,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  }
+]
