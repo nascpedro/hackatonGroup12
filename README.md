@@ -10,13 +10,15 @@ Repositório de trabalho da equipe para modelar a recarga de agências de locaç
 | [`dados/Bangkok/`](dados/Bangkok/) | Dados públicos da agência tutorial: 80 veículos, 271 contratos, carregadores, entradas e curvas |
 | [`dados/Istanbul/`](dados/Istanbul/) | Dados públicos da agência pontuada: 235 veículos, 1.293 contratos e 4 vagas elétricas |
 | [`dados/Hanoi/`](dados/Hanoi/) | Dados públicos da agência pontuada: 305 veículos, 1.167 contratos e 6 vagas elétricas |
+| [`dados/Marrakech/`](dados/Marrakech/) | Dados públicos da agência pontuada: 480 veículos, 1.230 contratos e 10 vagas elétricas |
+| [`dados/Zurich/`](dados/Zurich/) | Dados públicos da agência pontuada: 255 veículos, 867 contratos e 4 vagas elétricas |
 | [`kickoff/`](kickoff/) | Simulador, cliente da API e módulos fornecidos no kickoff |
 | [`COMANDOS.md`](COMANDOS.md) | Preparação do ambiente e comandos para dados, API, testes e comparação |
 | [`.env.example`](.env.example) | Formato do arquivo local do token; preencher `.env` apenas na própria máquina |
 
 ## Estado atual — 21/10/2026
 
-- Equipe **#12** cadastrada na API. A fase é **Neblina (H0)**; Bangkok, Istanbul e Hanoi estão liberadas em `GET /status`.
+- Equipe **#12** cadastrada na API. Na consulta de 21/10/2026, a fase era **Neblina**; Bangkok, Istanbul, Hanoi, Marrakech e Zurich estavam liberadas em `GET /status`.
 - O teste oficial **gratuito** da submissão `exemplo_submissao.json` em Bangkok foi válido, sem violações: **271/271 contratos atendidos**, pico de **40,5 kW** e **4.512,24 kWh** nas semanas públicas. A nota retornada foi **14,475**, calculada pelo juiz com pesos ainda ocultos. O saldo permaneceu em **1.000 m7Coins**.
 - O simulador local implementa retirada, devolução, recarga, limites elétricos, horário, ponta e as três prioridades. No exemplo de Bangkok ele reproduz os **271 atendimentos**, o pico, a energia e todas as séries de 15 minutos do juiz. A apresentação de `fila_max` foi inferida da resposta oficial salva e ainda precisa ser validada em outras configurações. Eventos ao vivo aguardam o formato anunciado pela organização.
 - Há **25 testes locais** e três comparações exatas com respostas oficiais gratuitas de Bangkok salvas em `testes/fixtures/`: o exemplo, uma fila intensa e uma política alternativa com divisão igual. Um quarto caso, com divisão por prioridade, revelou uma diferença pequena em 8 janelas de potência e está documentado na pasta de referências. As checagens locais não usam a PalavraChave nem gastam m7Coins.
@@ -27,7 +29,7 @@ Repositório de trabalho da equipe para modelar a recarga de agências de locaç
 
 1. Investigar a pequena divergência de potência do caso de políticas alternativas de Bangkok e acrescentar novas referências oficiais gratuitas quando útil.
 2. Implementar eventos ao vivo quando o formato de cada evento for anunciado, com testes locais antes de comparar com o juiz.
-3. Quando outras agências forem liberadas, baixar os kits, procurar configurações válidas localmente e usar testes pagos para validar candidatas promissoras. Reservar saldo para agências tardias e reenvios.
+3. Procurar configurações válidas localmente para Marrakech e Zurich; quando outras agências forem liberadas, baixar seus kits. Usar testes pagos só com autorização da equipe e reservar saldo para agências tardias e reenvios.
 4. Montar o dashboard obrigatório: cascata de pontos, potência versus limite/ponta, ocupação/fila, SOC na retirada, perdas por horário e evolução da nota.
 5. Após H4, atualizar o catálogo com pesos e custos, revisar as decisões e fazer um envio final por agência pontuada antes do congelamento.
 
