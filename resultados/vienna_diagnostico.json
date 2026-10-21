@@ -1,0 +1,198 @@
+[
+  {
+    "submissao": {
+      "agencia": "Vienna",
+      "carregadores": {
+        "ac_7": 4
+      },
+      "entrada": "a4_150",
+      "demanda_contratada_kw": 30,
+      "politica": {
+        "prioridade": "proxima_retirada",
+        "evitar_ponta": true,
+        "divisao": "igual"
+      }
+    },
+    "min_prontos": 66,
+    "max_fila": 15,
+    "semanas": [
+      {
+        "t": 1080,
+        "prontos": 95,
+        "fila": 2,
+        "energia_para_80_kwh": 116.9
+      },
+      {
+        "t": 11153,
+        "prontos": 76,
+        "fila": 10,
+        "energia_para_80_kwh": 275.7
+      },
+      {
+        "t": 21237.80140465647,
+        "prontos": 91,
+        "fila": 6,
+        "energia_para_80_kwh": 150.46
+      },
+      {
+        "t": 31320,
+        "prontos": 91,
+        "fila": 3,
+        "energia_para_80_kwh": 129.91
+      },
+      {
+        "t": 41398,
+        "prontos": 92,
+        "fila": 0,
+        "energia_para_80_kwh": 28.0
+      }
+    ]
+  },
+  {
+    "submissao": {
+      "agencia": "Vienna",
+      "carregadores": {
+        "ac_7": 4
+      },
+      "entrada": "a4_150",
+      "demanda_contratada_kw": 30,
+      "politica": {
+        "prioridade": "chegada",
+        "evitar_ponta": true,
+        "divisao": "igual"
+      }
+    },
+    "min_prontos": 65,
+    "max_fila": 19,
+    "semanas": [
+      {
+        "t": 1080,
+        "prontos": 95,
+        "fila": 2,
+        "energia_para_80_kwh": 116.9
+      },
+      {
+        "t": 11158.864781698525,
+        "prontos": 76,
+        "fila": 10,
+        "energia_para_80_kwh": 266.37
+      },
+      {
+        "t": 21233.646837081513,
+        "prontos": 90,
+        "fila": 7,
+        "energia_para_80_kwh": 122.5
+      },
+      {
+        "t": 31320,
+        "prontos": 91,
+        "fila": 3,
+        "energia_para_80_kwh": 129.25
+      },
+      {
+        "t": 41398,
+        "prontos": 92,
+        "fila": 0,
+        "energia_para_80_kwh": 28.61
+      }
+    ]
+  },
+  {
+    "submissao": {
+      "agencia": "Vienna",
+      "carregadores": {
+        "ac_7": 4
+      },
+      "entrada": "a4_150",
+      "demanda_contratada_kw": 30,
+      "politica": {
+        "prioridade": "menor_soc",
+        "evitar_ponta": true,
+        "divisao": "igual"
+      }
+    },
+    "min_prontos": 57,
+    "max_fila": 26,
+    "semanas": [
+      {
+        "t": 1080,
+        "prontos": 95,
+        "fila": 2,
+        "energia_para_80_kwh": 116.9
+      },
+      {
+        "t": 11155.47746023441,
+        "prontos": 63,
+        "fila": 23,
+        "energia_para_80_kwh": 293.6
+      },
+      {
+        "t": 21238.531356489286,
+        "prontos": 86,
+        "fila": 11,
+        "energia_para_80_kwh": 132.56
+      },
+      {
+        "t": 31320,
+        "prontos": 92,
+        "fila": 2,
+        "energia_para_80_kwh": 134.43
+      },
+      {
+        "t": 41398,
+        "prontos": 92,
+        "fila": 0,
+        "energia_para_80_kwh": 28.24
+      }
+    ]
+  },
+  {
+    "submissao": {
+      "agencia": "Vienna",
+      "carregadores": {
+        "ac_7": 5
+      },
+      "entrada": "a4_150",
+      "demanda_contratada_kw": 30,
+      "politica": {
+        "prioridade": "proxima_retirada",
+        "evitar_ponta": true,
+        "divisao": "igual"
+      }
+    },
+    "min_prontos": 67,
+    "max_fila": 13,
+    "semanas": [
+      {
+        "t": 1080,
+        "prontos": 95,
+        "fila": 1,
+        "energia_para_80_kwh": 116.9
+      },
+      {
+        "t": 11158.281656714125,
+        "prontos": 82,
+        "fila": 3,
+        "energia_para_80_kwh": 139.08
+      },
+      {
+        "t": 21238.011583011583,
+        "prontos": 99,
+        "fila": 0,
+        "energia_para_80_kwh": 13.04
+      },
+      {
+        "t": 31320,
+        "prontos": 91,
+        "fila": 2,
+        "energia_para_80_kwh": 118.63
+      },
+      {
+        "t": 41398,
+        "prontos": 92,
+        "fila": 0,
+        "energia_para_80_kwh": 28.61
+      }
+    ]
+  }
+]

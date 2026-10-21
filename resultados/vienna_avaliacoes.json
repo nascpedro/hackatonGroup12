@@ -1,0 +1,3566 @@
+[
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 246,
+   "upgrades": 80,
+   "nao_atendidos": 538,
+   "pico_kw": 7.000000000000013,
+   "energia_kwh": 4555.043551064734,
+   "energia_ponta_kwh": 406.0465339391234,
+   "atendimento_pct": 37.73148148148148,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     246,
+     15,
+     3690
+    ],
+    [
+     "upgrade",
+     80,
+     8,
+     640
+    ],
+    [
+     "nao_atendido",
+     538,
+     -200,
+     -107600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     406.0465339391234,
+     -0.5,
+     -203.0232669695617
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -103783.02326696957
+  },
+  "nota": -103783.02326696957,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 240,
+   "upgrades": 66,
+   "nao_atendidos": 558,
+   "pico_kw": 7.000000000000014,
+   "energia_kwh": 4146.358693111176,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 35.416666666666664,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     240,
+     15,
+     3600
+    ],
+    [
+     "upgrade",
+     66,
+     8,
+     528
+    ],
+    [
+     "nao_atendido",
+     558,
+     -200,
+     -111600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -107782.0
+  },
+  "nota": -107782.0,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 220,
+   "upgrades": 51,
+   "nao_atendidos": 593,
+   "pico_kw": 7.000000000000012,
+   "energia_kwh": 4551.475181752202,
+   "energia_ponta_kwh": 406.19124999976987,
+   "atendimento_pct": 31.36574074074074,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     220,
+     15,
+     3300
+    ],
+    [
+     "upgrade",
+     51,
+     8,
+     408
+    ],
+    [
+     "nao_atendido",
+     593,
+     -200,
+     -118600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     406.19124999976987,
+     -0.5,
+     -203.09562499988493
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -115405.09562499989
+  },
+  "nota": -115405.09562499989,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 212,
+   "upgrades": 43,
+   "nao_atendidos": 609,
+   "pico_kw": 7.000000000000012,
+   "energia_kwh": 4152.335045560052,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 29.51388888888889,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     212,
+     15,
+     3180
+    ],
+    [
+     "upgrade",
+     43,
+     8,
+     344
+    ],
+    [
+     "nao_atendido",
+     609,
+     -200,
+     -121800
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -118586.0
+  },
+  "nota": -118586.0,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 258,
+   "upgrades": 129,
+   "nao_atendidos": 477,
+   "pico_kw": 7.000000000000018,
+   "energia_kwh": 4606.50530559034,
+   "energia_ponta_kwh": 410.41853626939485,
+   "atendimento_pct": 44.791666666666664,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     258,
+     15,
+     3870
+    ],
+    [
+     "upgrade",
+     129,
+     8,
+     1032
+    ],
+    [
+     "nao_atendido",
+     477,
+     -200,
+     -95400
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     410.41853626939485,
+     -0.5,
+     -205.20926813469742
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -91013.2092681347
+  },
+  "nota": -91013.2092681347,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 261,
+   "upgrades": 110,
+   "nao_atendidos": 493,
+   "pico_kw": 7.00000000000003,
+   "energia_kwh": 4188.764420126174,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 42.93981481481482,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     261,
+     15,
+     3915
+    ],
+    [
+     "upgrade",
+     110,
+     8,
+     880
+    ],
+    [
+     "nao_atendido",
+     493,
+     -200,
+     -98600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     250,
+     -1,
+     -250
+    ]
+   ],
+   "nota": -94115.0
+  },
+  "nota": -94115.0,
+  "custo_infra": {
+   "carregadores": 250,
+   "entrada": 0,
+   "total": 250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 478,
+   "upgrades": 95,
+   "nao_atendidos": 291,
+   "pico_kw": 14.000000000000018,
+   "energia_kwh": 9107.7438427846,
+   "energia_ponta_kwh": 810.0562839087263,
+   "atendimento_pct": 66.31944444444444,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     478,
+     15,
+     7170
+    ],
+    [
+     "upgrade",
+     95,
+     8,
+     760
+    ],
+    [
+     "nao_atendido",
+     291,
+     -200,
+     -58200
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     810.0562839087263,
+     -0.5,
+     -405.02814195436315
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -51235.02814195436
+  },
+  "nota": -51235.02814195436,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 434,
+   "upgrades": 89,
+   "nao_atendidos": 341,
+   "pico_kw": 14.000000000000025,
+   "energia_kwh": 8293.888946397257,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 60.532407407407405,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     434,
+     15,
+     6510
+    ],
+    [
+     "upgrade",
+     89,
+     8,
+     712
+    ],
+    [
+     "nao_atendido",
+     341,
+     -200,
+     -68200
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -61538.0
+  },
+  "nota": -61538.0,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 442,
+   "upgrades": 47,
+   "nao_atendidos": 375,
+   "pico_kw": 14.00000000000002,
+   "energia_kwh": 9102.13634578467,
+   "energia_ponta_kwh": 813.8946042455839,
+   "atendimento_pct": 56.59722222222222,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     442,
+     15,
+     6630
+    ],
+    [
+     "upgrade",
+     47,
+     8,
+     376
+    ],
+    [
+     "nao_atendido",
+     375,
+     -200,
+     -75000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     813.8946042455839,
+     -0.5,
+     -406.94730212279194
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -68960.94730212279
+  },
+  "nota": -68960.94730212279,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 393,
+   "upgrades": 54,
+   "nao_atendidos": 417,
+   "pico_kw": 14.00000000000002,
+   "energia_kwh": 8312.767654577554,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 51.736111111111114,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     393,
+     15,
+     5895
+    ],
+    [
+     "upgrade",
+     54,
+     8,
+     432
+    ],
+    [
+     "nao_atendido",
+     417,
+     -200,
+     -83400
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -77633.0
+  },
+  "nota": -77633.0,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 414,
+   "upgrades": 190,
+   "nao_atendidos": 260,
+   "pico_kw": 14.000000000000021,
+   "energia_kwh": 9206.56233108491,
+   "energia_ponta_kwh": 818.5432820243639,
+   "atendimento_pct": 69.9074074074074,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     414,
+     15,
+     6210
+    ],
+    [
+     "upgrade",
+     190,
+     8,
+     1520
+    ],
+    [
+     "nao_atendido",
+     260,
+     -200,
+     -52000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     818.5432820243639,
+     -0.5,
+     -409.27164101218193
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -45239.27164101218
+  },
+  "nota": -45239.27164101218,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 392,
+   "upgrades": 167,
+   "nao_atendidos": 305,
+   "pico_kw": 14.000000000000028,
+   "energia_kwh": 8401.907045811306,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 64.69907407407408,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     392,
+     15,
+     5880
+    ],
+    [
+     "upgrade",
+     167,
+     8,
+     1336
+    ],
+    [
+     "nao_atendido",
+     305,
+     -200,
+     -61000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     500,
+     -1,
+     -500
+    ]
+   ],
+   "nota": -54344.0
+  },
+  "nota": -54344.0,
+  "custo_infra": {
+   "carregadores": 500,
+   "entrada": 0,
+   "total": 500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 782,
+   "upgrades": 31,
+   "nao_atendidos": 51,
+   "pico_kw": 21.000000000000036,
+   "energia_kwh": 13657.533595268424,
+   "energia_ponta_kwh": 1219.8091961438668,
+   "atendimento_pct": 94.09722222222223,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     782,
+     15,
+     11730
+    ],
+    [
+     "upgrade",
+     31,
+     8,
+     248
+    ],
+    [
+     "nao_atendido",
+     51,
+     -200,
+     -10200
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1219.8091961438668,
+     -0.5,
+     -609.9045980719334
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 358.0954019280666
+  },
+  "nota": 358.0954019280666,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 685,
+   "upgrades": 59,
+   "nao_atendidos": 120,
+   "pico_kw": 21.000000000000036,
+   "energia_kwh": 12434.341396258616,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 86.11111111111111,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     685,
+     15,
+     10275
+    ],
+    [
+     "upgrade",
+     59,
+     8,
+     472
+    ],
+    [
+     "nao_atendido",
+     120,
+     -200,
+     -24000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": -14063.0
+  },
+  "nota": -14063.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 687,
+   "upgrades": 39,
+   "nao_atendidos": 138,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 13638.31437489241,
+   "energia_ponta_kwh": 1215.9298760296863,
+   "atendimento_pct": 84.02777777777777,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     687,
+     15,
+     10305
+    ],
+    [
+     "upgrade",
+     39,
+     8,
+     312
+    ],
+    [
+     "nao_atendido",
+     138,
+     -200,
+     -27600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1215.9298760296863,
+     -0.5,
+     -607.9649380148431
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": -18400.964938014844
+  },
+  "nota": -18400.964938014844,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 626,
+   "upgrades": 34,
+   "nao_atendidos": 204,
+   "pico_kw": 21.000000000000036,
+   "energia_kwh": 12409.702904055453,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 76.38888888888889,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     626,
+     15,
+     9390
+    ],
+    [
+     "upgrade",
+     34,
+     8,
+     272
+    ],
+    [
+     "nao_atendido",
+     204,
+     -200,
+     -40800
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": -31948.0
+  },
+  "nota": -31948.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 698,
+   "upgrades": 135,
+   "nao_atendidos": 31,
+   "pico_kw": 21.000000000000014,
+   "energia_kwh": 13689.898804574343,
+   "energia_ponta_kwh": 1216.8970559333418,
+   "atendimento_pct": 96.41203703703704,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     698,
+     15,
+     10470
+    ],
+    [
+     "upgrade",
+     135,
+     8,
+     1080
+    ],
+    [
+     "nao_atendido",
+     31,
+     -200,
+     -6200
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1216.8970559333418,
+     -0.5,
+     -608.4485279666709
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": 3931.5514720333294
+  },
+  "nota": 3931.5514720333294,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 572,
+   "upgrades": 184,
+   "nao_atendidos": 108,
+   "pico_kw": 21.00000000000003,
+   "energia_kwh": 12523.7549714623,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 87.5,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     572,
+     15,
+     8580
+    ],
+    [
+     "upgrade",
+     184,
+     8,
+     1472
+    ],
+    [
+     "nao_atendido",
+     108,
+     -200,
+     -21600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     750,
+     -1,
+     -750
+    ]
+   ],
+   "nota": -12358.0
+  },
+  "nota": -12358.0,
+  "custo_infra": {
+   "carregadores": 750,
+   "entrada": 0,
+   "total": 750
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.999999999999957,
+   "energia_kwh": 16111.25159309565,
+   "energia_ponta_kwh": 1391.1373516325511,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1391.1373516325511,
+     -0.5,
+     -695.5686758162756
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11204.431324183724
+  },
+  "nota": 11204.431324183724,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.99999999999997,
+   "energia_kwh": 16101.449424631239,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11900.0
+  },
+  "nota": 11900.0,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.999999999999986,
+   "energia_kwh": 16127.14291727556,
+   "energia_ponta_kwh": 1391.7612231657513,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1391.7612231657513,
+     -0.5,
+     -695.8806115828756
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11204.119388417124
+  },
+  "nota": 11204.119388417124,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.999999999999986,
+   "energia_kwh": 16097.952307695203,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11900.0
+  },
+  "nota": 11900.0,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.999999999999993,
+   "energia_kwh": 16093.82173848004,
+   "energia_ponta_kwh": 1372.274640277358,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1372.274640277358,
+     -0.5,
+     -686.137320138679
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11213.86267986132
+  },
+  "nota": 11213.86267986132,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 27.99999999999999,
+   "energia_kwh": 16093.507008358878,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1000
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1000,
+     -1,
+     -1000
+    ]
+   ],
+   "nota": 11900.0
+  },
+  "nota": 11900.0,
+  "custo_infra": {
+   "carregadores": 1000,
+   "entrada": 0,
+   "total": 1000
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000068,
+   "energia_kwh": 16102.757897438521,
+   "energia_ponta_kwh": 1380.875603771181,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1380.875603771181,
+     -0.5,
+     -690.4378018855905
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10959.56219811441
+  },
+  "nota": 10959.56219811441,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000053,
+   "energia_kwh": 16110.508580060048,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11650.0
+  },
+  "nota": 11650.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000046,
+   "energia_kwh": 16121.011906093345,
+   "energia_ponta_kwh": 1394.2754167960265,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1394.2754167960265,
+     -0.5,
+     -697.1377083980133
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10952.862291601987
+  },
+  "nota": 10952.862291601987,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.00000000000006,
+   "energia_kwh": 16093.632049701933,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11650.0
+  },
+  "nota": 11650.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000075,
+   "energia_kwh": 16098.17229308969,
+   "energia_ponta_kwh": 1378.143890624628,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1378.143890624628,
+     -0.5,
+     -689.071945312314
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10960.928054687685
+  },
+  "nota": 10960.928054687685,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000043,
+   "energia_kwh": 16114.377599699892,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11650.0
+  },
+  "nota": 11650.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.999999999999936,
+   "energia_kwh": 16110.447528227984,
+   "energia_ponta_kwh": 1388.4032027378591,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     1388.4032027378591,
+     -0.5,
+     -694.2016013689296
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10935.79839863107
+  },
+  "nota": 10935.79839863107,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.999999999999936,
+   "energia_kwh": 16098.216165900489,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11630.0
+  },
+  "nota": 11630.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.99999999999999,
+   "energia_kwh": 16124.599069620168,
+   "energia_ponta_kwh": 1399.481561410902,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     1399.481561410902,
+     -0.5,
+     -699.740780705451
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10930.259219294549
+  },
+  "nota": 10930.259219294549,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.99999999999999,
+   "energia_kwh": 16123.645188448083,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11630.0
+  },
+  "nota": 11630.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.99999999999999,
+   "energia_kwh": 16107.458086884973,
+   "energia_ponta_kwh": 1398.6407153293303,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     1398.6407153293303,
+     -0.5,
+     -699.3203576646652
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 10930.679642335335
+  },
+  "nota": 10930.679642335335,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 34.99999999999999,
+   "energia_kwh": 16120.093487659842,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 40,
+   "custo_infra": 1250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     40,
+     -2,
+     -80
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1250,
+     -1,
+     -1250
+    ]
+   ],
+   "nota": 11630.0
+  },
+  "nota": 11630.0,
+  "custo_infra": {
+   "carregadores": 1250,
+   "entrada": 0,
+   "total": 1250
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000057,
+   "energia_kwh": 16111.454827791491,
+   "energia_ponta_kwh": 1384.5783165488244,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1384.5783165488244,
+     -0.5,
+     -692.2891582744122
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10707.710841725588
+  },
+  "nota": 10707.710841725588,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.00000000000005,
+   "energia_kwh": 16105.503487802578,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11400.0
+  },
+  "nota": 11400.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.00000000000007,
+   "energia_kwh": 16124.357314212772,
+   "energia_ponta_kwh": 1390.4213605554446,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1390.4213605554446,
+     -0.5,
+     -695.2106802777223
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10704.789319722278
+  },
+  "nota": 10704.789319722278,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.00000000000007,
+   "energia_kwh": 16087.857563575191,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11400.0
+  },
+  "nota": 11400.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000085,
+   "energia_kwh": 16111.439030957383,
+   "energia_ponta_kwh": 1390.2878898894578,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     1390.2878898894578,
+     -0.5,
+     -695.1439449447289
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10704.856055055272
+  },
+  "nota": 10704.856055055272,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 30.000000000000085,
+   "energia_kwh": 16112.565701745387,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11400.0
+  },
+  "nota": 11400.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.9999999999999,
+   "energia_kwh": 16124.19402886037,
+   "energia_ponta_kwh": 1379.9065095913827,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     1379.9065095913827,
+     -0.5,
+     -689.9532547956914
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10670.046745204309
+  },
+  "nota": 10670.046745204309,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.9999999999999,
+   "energia_kwh": 16127.860818149906,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11360.0
+  },
+  "nota": 11360.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.999999999999936,
+   "energia_kwh": 16131.094419194802,
+   "energia_ponta_kwh": 1380.090471012792,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     1380.090471012792,
+     -0.5,
+     -690.045235506396
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10669.954764493605
+  },
+  "nota": 10669.954764493605,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.999999999999936,
+   "energia_kwh": 16129.37596788592,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11360.0
+  },
+  "nota": 11360.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.99999999999967,
+   "energia_kwh": 16126.931873505286,
+   "energia_ponta_kwh": 1382.441924581751,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     1382.441924581751,
+     -0.5,
+     -691.2209622908755
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 10668.779037709124
+  },
+  "nota": 10668.779037709124,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 864,
+   "upgrades": 0,
+   "nao_atendidos": 0,
+   "pico_kw": 41.99999999999967,
+   "energia_kwh": 16113.588881810256,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 50,
+   "custo_infra": 1500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     864,
+     15,
+     12960
+    ],
+    [
+     "upgrade",
+     0,
+     8,
+     0
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     50,
+     -2,
+     -100
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1500,
+     -1,
+     -1500
+    ]
+   ],
+   "nota": 11360.0
+  },
+  "nota": 11360.0,
+  "custo_infra": {
+   "carregadores": 1500,
+   "entrada": 0,
+   "total": 1500
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 267,
+   "upgrades": 77,
+   "nao_atendidos": 520,
+   "pico_kw": 11.000000000000028,
+   "energia_kwh": 4894.938632800974,
+   "energia_ponta_kwh": 444.5895452054779,
+   "atendimento_pct": 39.81481481481482,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     267,
+     15,
+     4005
+    ],
+    [
+     "upgrade",
+     77,
+     8,
+     616
+    ],
+    [
+     "nao_atendido",
+     520,
+     -200,
+     -104000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     444.5895452054779,
+     -0.5,
+     -222.29477260273896
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -100761.29477260273
+  },
+  "nota": -100761.29477260273,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 245,
+   "upgrades": 75,
+   "nao_atendidos": 544,
+   "pico_kw": 11.000000000000025,
+   "energia_kwh": 4437.8882403590715,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 37.03703703703704,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     245,
+     15,
+     3675
+    ],
+    [
+     "upgrade",
+     75,
+     8,
+     600
+    ],
+    [
+     "nao_atendido",
+     544,
+     -200,
+     -108800
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -105685.0
+  },
+  "nota": -105685.0,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 244,
+   "upgrades": 39,
+   "nao_atendidos": 581,
+   "pico_kw": 11.000000000000009,
+   "energia_kwh": 4823.96428458258,
+   "energia_ponta_kwh": 447.78292931642136,
+   "atendimento_pct": 32.754629629629626,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     244,
+     15,
+     3660
+    ],
+    [
+     "upgrade",
+     39,
+     8,
+     312
+    ],
+    [
+     "nao_atendido",
+     581,
+     -200,
+     -116200
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     447.78292931642136,
+     -0.5,
+     -223.89146465821068
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -113611.89146465821
+  },
+  "nota": -113611.89146465821,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 224,
+   "upgrades": 40,
+   "nao_atendidos": 600,
+   "pico_kw": 11.000000000000005,
+   "energia_kwh": 4390.430531697494,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 30.555555555555557,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     224,
+     15,
+     3360
+    ],
+    [
+     "upgrade",
+     40,
+     8,
+     320
+    ],
+    [
+     "nao_atendido",
+     600,
+     -200,
+     -120000
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -117480.0
+  },
+  "nota": -117480.0,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 263,
+   "upgrades": 148,
+   "nao_atendidos": 453,
+   "pico_kw": 11.000000000000016,
+   "energia_kwh": 5298.005122519155,
+   "energia_ponta_kwh": 479.1400481590884,
+   "atendimento_pct": 47.56944444444444,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     263,
+     15,
+     3945
+    ],
+    [
+     "upgrade",
+     148,
+     8,
+     1184
+    ],
+    [
+     "nao_atendido",
+     453,
+     -200,
+     -90600
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     479.1400481590884,
+     -0.5,
+     -239.5700240795442
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -86870.57002407954
+  },
+  "nota": -86870.57002407954,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ },
+ {
+  "agencia": "Vienna",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 864,
+   "certos": 270,
+   "upgrades": 125,
+   "nao_atendidos": 469,
+   "pico_kw": 11.000000000000023,
+   "energia_kwh": 4874.984975988841,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 45.717592592592595,
+   "demanda_contratada_kw": 30,
+   "custo_infra": 1100
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     270,
+     15,
+     4050
+    ],
+    [
+     "upgrade",
+     125,
+     8,
+     1000
+    ],
+    [
+     "nao_atendido",
+     469,
+     -200,
+     -93800
+    ],
+    [
+     "demanda_contratada",
+     30,
+     -2,
+     -60
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     1100,
+     -1,
+     -1100
+    ]
+   ],
+   "nota": -89910.0
+  },
+  "nota": -89910.0,
+  "custo_infra": {
+   "carregadores": 1100,
+   "entrada": 0,
+   "total": 1100
+  }
+ }
+]

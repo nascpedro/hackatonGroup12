@@ -12,11 +12,24 @@ Repositório de trabalho da equipe para modelar a recarga de agências de locaç
 | [`dados/Hanoi/`](dados/Hanoi/) | Dados públicos da agência pontuada: 305 veículos, 1.167 contratos e 6 vagas elétricas |
 | [`dados/Marrakech/`](dados/Marrakech/) | Dados públicos da agência pontuada: 480 veículos, 1.230 contratos e 10 vagas elétricas |
 | [`dados/Zurich/`](dados/Zurich/) | Dados públicos da agência pontuada: 255 veículos, 867 contratos e 4 vagas elétricas |
+| [`dados/Vienna/`](dados/Vienna/) | Dados públicos da agência H5: 300 veículos, 864 contratos, 30 vagas e operação 24h |
 | [`kickoff/`](kickoff/) | Simulador, cliente da API e módulos fornecidos no kickoff |
 | [`COMANDOS.md`](COMANDOS.md) | Preparação do ambiente e comandos para dados, API, testes e comparação |
 | [`.env.example`](.env.example) | Formato do arquivo local do token; preencher `.env` apenas na própria máquina |
 
-## Estado atual — 21/10/2026
+## Vienna — H5, 21/10/2026
+
+Kit baixado, catálogo atualizado e cenário de consistência incluído no pipeline local. A melhor candidata nas 54 avaliações públicas foi **4 AC-7, A4-150 existente, demanda de 30 kW, próxima retirada e evitar ponta**: **11.900 pontos locais**, 864 atendimentos na categoria certa e nenhum perdido. A referência de produção informada pela equipe é 11.800; as semanas ocultas não estão disponíveis para comparação direta.
+
+O [JSON pronto para teste](resultados/vienna_proximo_teste.json) e a [análise de parâmetros](relatorios/2026-10-21-vienna.md) estão no projeto. Para reproduzir, sem API:
+
+```bash
+python3 -m kickoff.dados Vienna
+python3 simular.py resultados/vienna_proximo_teste.json --eventos dados/status_vienna.json
+python3 scripts/check_local.py --strict
+```
+
+## Registro da preparação inicial — 21/10/2026
 
 - Equipe **#12** cadastrada na API. Na consulta de 21/10/2026, a fase era **Neblina**; Bangkok, Istanbul, Hanoi, Marrakech e Zurich estavam liberadas em `GET /status`.
 - O teste oficial **gratuito** da submissão `exemplo_submissao.json` em Bangkok foi válido, sem violações: **271/271 contratos atendidos**, pico de **40,5 kW** e **4.512,24 kWh** nas semanas públicas. A nota retornada foi **14,475**, calculada pelo juiz com pesos ainda ocultos. O saldo permaneceu em **1.000 m7Coins**.

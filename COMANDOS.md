@@ -12,8 +12,8 @@ Esse comando roda os testes e compara todas as métricas e séries de três caso
 Bangkok com respostas oficiais já salvas. Não lê `.env` nem chama a API. O mesmo
 comando roda no GitHub Actions, sem secrets.
 
-Os testes locais também cobrem cenários alternativos em Bangkok, Istanbul e
-Hanoi: conservação dos contratos, limite de potência, vagas e energia na ponta.
+Os testes locais também cobrem cenários alternativos em Bangkok, Istanbul,
+Hanoi e Vienna: conservação dos contratos, limite de potência, vagas e energia na ponta.
 Esses cenários verificam consistência interna; as três referências salvas de
 Bangkok foram comparadas com o juiz. Para acrescentar outra resposta oficial
 **já salva**:
@@ -40,7 +40,7 @@ provisórios, e `*_top5.json`, uma lista de consulta. Ambos podem ser passados
 diretamente a `simular.py`. A fronteira usa atendimento, categoria exata,
 demanda, energia na ponta e aproximações de infraestrutura. Pico e energia
 total ficam apenas como métricas de diagnóstico: não entram diretamente na nota.
-`resultados/` é ignorado pelo Git. Nenhuma ordenação pré-H4 equivale à nota do
+`resultados/` guarda os artefatos da busca. Nenhuma ordenação pré-H4 equivale à nota do
 juiz; preserve o JSON completo para a reclassificação.
 
 Depois de H4, atualize `dados/catalogo.json` com custos e pesos oficiais e
@@ -72,6 +72,26 @@ python3 -m kickoff.dados Bangkok
 ```
 
 Para uma agência liberada mais tarde, baixe seu kit com `python3 -m kickoff.api kit NOME_DA_AGENCIA` após configurar a API. Ele será extraído em `dados/NOME_DA_AGENCIA/`.
+
+## Vienna: ambiente local da H5
+
+O kit já está em `dados/Vienna/`; o catálogo inclui seus pesos. A captura de status
+em `dados/status_vienna.json` não contém eventos para Vienna. Para simular a
+recomendação e refazer as 54 avaliações, sem rede ou token:
+
+```bash
+python3 -m kickoff.dados Vienna
+python3 simular.py resultados/vienna_proximo_teste.json --eventos dados/status_vienna.json
+python3 simular.py resultados/vienna_candidatas.json --eventos dados/status_vienna.json > resultados/vienna_avaliacoes.json
+python3 scripts/check_local.py --strict
+```
+
+A candidata usa **4 AC-7**, entrada **A4-150 existente**, demanda explícita de
+**30 kW**, prioridade `proxima_retirada`, `evitar_ponta=true` e divisão `igual`.
+Nota pública local: **11.900**, sem perdidos ou upgrades. Omitir a demanda vale
+130 kW e desconta mais 200 pontos sem aumentar a potência desses carregadores.
+O [relatório de Vienna](relatorios/2026-10-21-vienna.md) explica as alternativas e
+a diferença entre teste público e nota final nas semanas ocultas.
 
 ## Configurar a API nesta sessão do terminal
 
@@ -126,7 +146,7 @@ python3 simular.py exemplo_submissao.json
 python3 simular.py exemplo_submissao.json --series > dados/bangkok_local_series.json
 ```
 
-Os 28 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
+Os 29 testes locais devem passar. O exemplo de Bangkok reproduz as métricas
 físicas e séries de 15 minutos do juiz para a referência salva.
 
 ## Comparar com o juiz em Bangkok

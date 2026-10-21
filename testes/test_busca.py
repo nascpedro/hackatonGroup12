@@ -65,10 +65,13 @@ class BuscaLocal(unittest.TestCase):
              {"prioridade": "chegada", "divisao": "igual", "evitar_ponta": False}),
             ("Hanoi", {"dc_60x2": 2, "ac_11": 2}, "a4_225", 100,
              {"prioridade": "menor_soc", "divisao": "prioridade", "evitar_ponta": True}),
+            ("Vienna", {"ac_7": 4}, "a4_150", 30,
+             {"prioridade": "proxima_retirada", "divisao": "igual", "evitar_ponta": True}),
         )
         for nome, carregadores, entrada, demanda, politica in casos:
             with self.subTest(agencia=nome):
-                cenario = self.cenarios[nome]
+                cenario = (self.cenarios[nome] if nome in self.cenarios
+                           else dados.carregar(RAIZ / "dados", nome))
                 sub = {"agencia": nome, "carregadores": carregadores, "entrada": entrada,
                        "politica": politica}
                 if demanda is not None:

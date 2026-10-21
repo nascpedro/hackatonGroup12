@@ -1,0 +1,266 @@
+[
+ {
+  "agencia": "Istanbul",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1293,
+   "certos": 1290,
+   "upgrades": 3,
+   "nao_atendidos": 0,
+   "pico_kw": 50.99999999999997,
+   "energia_kwh": 27610.680741324144,
+   "energia_ponta_kwh": 2595.436260183798,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 9250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1290,
+     15,
+     19350
+    ],
+    [
+     "upgrade",
+     3,
+     8,
+     24
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2595.436260183798,
+     -0.5,
+     -1297.718130091899
+    ],
+    [
+     "infraestrutura",
+     9250,
+     -1,
+     -9250
+    ]
+   ],
+   "nota": 8826.281869908102
+  },
+  "nota": 8826.281869908102,
+  "custo_infra": {
+   "carregadores": 4250,
+   "entrada": 5000,
+   "total": 9250
+  }
+ },
+ {
+  "agencia": "Hanoi",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1167,
+   "certos": 1161,
+   "upgrades": 6,
+   "nao_atendidos": 0,
+   "pico_kw": 67.49999999999997,
+   "energia_kwh": 20501.980147785594,
+   "energia_ponta_kwh": 2511.8780761704884,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 10750
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1161,
+     15,
+     17415
+    ],
+    [
+     "upgrade",
+     6,
+     8,
+     48
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2511.8780761704884,
+     -0.5,
+     -1255.9390380852442
+    ],
+    [
+     "infraestrutura",
+     10750,
+     -1,
+     -10750
+    ]
+   ],
+   "nota": 5457.060961914756
+  },
+  "nota": 5457.060961914756,
+  "custo_infra": {
+   "carregadores": 5750,
+   "entrada": 5000,
+   "total": 10750
+  }
+ },
+ {
+  "agencia": "Marrakech",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 1230,
+   "certos": 1212,
+   "upgrades": 18,
+   "nao_atendidos": 0,
+   "pico_kw": 106.46921558441362,
+   "energia_kwh": 21747.70680195614,
+   "energia_ponta_kwh": 0,
+   "atendimento_pct": 100.0,
+   "demanda_contratada_kw": 130,
+   "custo_infra": 14250
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     1212,
+     15,
+     18180
+    ],
+    [
+     "upgrade",
+     18,
+     8,
+     144
+    ],
+    [
+     "nao_atendido",
+     0,
+     -200,
+     0
+    ],
+    [
+     "demanda_contratada",
+     130,
+     -2,
+     -260
+    ],
+    [
+     "energia_ponta_kwh",
+     0,
+     -0.5,
+     -0.0
+    ],
+    [
+     "infraestrutura",
+     14250,
+     -1,
+     -14250
+    ]
+   ],
+   "nota": 3814.0
+  },
+  "nota": 3814.0,
+  "custo_infra": {
+   "carregadores": 7750,
+   "entrada": 6500,
+   "total": 14250
+  }
+ },
+ {
+  "agencia": "Zurich",
+  "periodo": "publico",
+  "valido": true,
+  "erros": [],
+  "violacoes": [],
+  "metricas": {
+   "contratos": 867,
+   "certos": 837,
+   "upgrades": 21,
+   "nao_atendidos": 9,
+   "pico_kw": 67.50000000000001,
+   "energia_kwh": 14502.080479014792,
+   "energia_ponta_kwh": 2163.613323911865,
+   "atendimento_pct": 98.96193771626298,
+   "demanda_contratada_kw": 0.0,
+   "custo_infra": 7500
+  },
+  "pontos": {
+   "itens": [
+    [
+     "certo",
+     837,
+     15,
+     12555
+    ],
+    [
+     "upgrade",
+     21,
+     8,
+     168
+    ],
+    [
+     "nao_atendido",
+     9,
+     -200,
+     -1800
+    ],
+    [
+     "demanda_contratada",
+     0.0,
+     -2,
+     -0.0
+    ],
+    [
+     "energia_ponta_kwh",
+     2163.613323911865,
+     -0.5,
+     -1081.8066619559324
+    ],
+    [
+     "infraestrutura",
+     7500,
+     -1,
+     -7500
+    ]
+   ],
+   "nota": 2341.193338044068
+  },
+  "nota": 2341.193338044068,
+  "custo_infra": {
+   "carregadores": 7500,
+   "entrada": 0,
+   "total": 7500
+  }
+ }
+]

@@ -78,7 +78,7 @@ def main():
     args = parser.parse_args()
     if sys.version_info < (3, 10):
         raise SystemExit("Python 3.10+ é necessário")
-    for nome in ("Bangkok", "Hanoi", "Istanbul"):
+    for nome in ("Bangkok", "Hanoi", "Istanbul", "Vienna"):
         if not (KIT / "dados" / nome).is_dir():
             raise SystemExit(f"dados ausentes: dados/{nome}")
     for fixture in (FIXTURE, FILA_SUB, FILA_FIXTURE, IGUAL_SUB, IGUAL_FIXTURE):

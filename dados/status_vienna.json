@@ -1,0 +1,79 @@
+{
+  "equipe": {
+    "numero": 12,
+    "nome": "Grupo 12",
+    "pode_renomear": true
+  },
+  "fase": "clara",
+  "etapa": {
+    "n": 5,
+    "rotulo": "H5"
+  },
+  "agora": "2026-10-21T19:07:56.579669+00:00",
+  "h0": "2026-10-21T14:02:59.605683+00:00",
+  "saldo": 820,
+  "agencias": {
+    "Bangkok": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 0,
+      "vigente": false
+    },
+    "Istanbul": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 1,
+      "vigente": true
+    },
+    "Hanoi": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 1,
+      "vigente": true
+    },
+    "Marrakech": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 0,
+      "vigente": false
+    },
+    "Zurich": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 0,
+      "vigente": false
+    },
+    "Vienna": {
+      "aberta": true,
+      "cooldown_teste_ate": null,
+      "cooldown_final_ate": null,
+      "envios": 0,
+      "vigente": false
+    }
+  },
+  "cartas": [
+    {
+      "n": 1,
+      "titulo": "Pedido da concessionaria",
+      "agencia": "Marrakech"
+    }
+  ],
+  "eventos_ativos": [
+    {
+      "agencia": "Marrakech",
+      "params": [
+        "corte",
+        "Marrakech",
+        31680,
+        34560,
+        0.7
+      ]
+    }
+  ],
+  "kit_simulador": false
+}

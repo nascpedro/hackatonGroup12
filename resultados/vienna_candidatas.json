@@ -1,0 +1,704 @@
+[
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 2
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 3
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 4
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 5
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 40,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_7": 6
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 50,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "chegada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "menor_soc",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": false,
+      "divisao": "igual"
+    }
+  },
+  {
+    "agencia": "Vienna",
+    "carregadores": {
+      "ac_11": 1
+    },
+    "entrada": "a4_150",
+    "demanda_contratada_kw": 30,
+    "politica": {
+      "prioridade": "proxima_retirada",
+      "evitar_ponta": true,
+      "divisao": "igual"
+    }
+  }
+]
